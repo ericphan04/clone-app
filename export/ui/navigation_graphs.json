@@ -1,0 +1,359 @@
+[
+  {
+    "graph": "about_meetup_nav_graph.xml",
+    "start": "@id/aboutMeetupFragment",
+    "destinations": [
+      {
+        "name": "com.meetup.feature.aboutmeetup.AboutMeetupFragment",
+        "id": "@id/aboutMeetupFragment",
+        "actions": [
+          "@id/toTerms"
+        ],
+        "args": [
+          "page",
+          "showToolbar",
+          "title"
+        ]
+      }
+    ]
+  },
+  {
+    "graph": "auth_nav_graph.xml",
+    "start": "",
+    "destinations": [
+      {
+        "name": "com.meetup.feature.auth.fragments.IntroFragment",
+        "id": "@id/introFragment",
+        "actions": [],
+        "args": []
+      },
+      {
+        "name": "com.meetup.feature.auth.fragments.IntegrityFailedFragment",
+        "id": "@id/integrityFailedFragment",
+        "actions": [],
+        "args": []
+      }
+    ]
+  },
+  {
+    "graph": "confirmation_nav_graph.xml",
+    "start": "@id/confirmationFragment",
+    "destinations": [
+      {
+        "name": "com.meetup.feature.group.confirmation.ConfirmationFragment",
+        "id": "@id/confirmationFragment",
+        "actions": [],
+        "args": [
+          "groupId",
+          "urlName",
+          "name",
+          "origin",
+          "subOrigin",
+          "campaign",
+          "dispatchId",
+          "topic",
+          "groupPhoto",
+          "groupPhotoLink",
+          "isApprovalNeeded"
+        ]
+      }
+    ]
+  },
+  {
+    "graph": "create_event_nav_graph.xml",
+    "start": "@id/startCreateEventFragment",
+    "destinations": [
+      {
+        "name": "com.meetup.feature.createevent.startCreateEvent.StartCreateEventFragment",
+        "id": "@id/startCreateEventFragment",
+        "actions": [
+          "@id/action_startCreateEventFragment_to_createEventFragment"
+        ],
+        "args": []
+      },
+      {
+        "name": "com.meetup.feature.createevent.createEvent.CreateEventFragment",
+        "id": "@id/createEventFragment",
+        "actions": [
+          "@id/action_createEventFragment_to_editTopicsFragment",
+          "@id/action_createEventFragment_to_editLinkFragment",
+          "@id/action_createEventFragment_to_editLocationFragment",
+          "@id/action_createEventFragment_to_editHostsFragment",
+          "@id/action_createEventFragment_to_editDescriptionFragment",
+          "@id/action_createEventFragment_to_editQuestionFragment",
+          "@id/action_createEventFragment_to_editPaymentOptionsFragment",
+          "@id/action_createEventFragment_to_editWelcomeMessageFragment",
+          "@id/action_createEventFragment_to_eventChatSettingsFragment"
+        ],
+        "args": [
+          "groupId",
+          "groupName",
+          "groupUrlName",
+          "eventId",
+          "isDraftEvent",
+          "mode"
+        ]
+      },
+      {
+        "name": "com.meetup.feature.createevent.editTopics.EditTopicsFragment",
+        "id": "@id/editTopicsFragment",
+        "actions": [
+          "@id/action_editPaymentOptionsFragment_to_editPromoCodeFragment",
+          "@id/action_editPaymentOptionsFragment_to_editDiscountFragment"
+        ],
+        "args": []
+      },
+      {
+        "name": "com.meetup.feature.createevent.editPromoCode.EditPromoCodeFragment",
+        "id": "@id/editPromoCodeFragment",
+        "actions": [],
+        "args": [
+          "isForOnline",
+          "promoCodeIndex"
+        ]
+      },
+      {
+        "name": "com.meetup.feature.createevent.editDiscount.EditDiscountFragment",
+        "id": "@id/editDiscountFragment",
+        "actions": [],
+        "args": [
+          "isForOnline"
+        ]
+      }
+    ]
+  },
+  {
+    "graph": "debug_nav_graph.xml",
+    "start": "@id/debugMenuFragment",
+    "destinations": [
+      {
+        "name": "com.meetup.feature.debugmenu.DebugMenuFragment",
+        "id": "@id/debugMenuFragment",
+        "actions": [
+          "@id/action_debugMenuFragment_to_homeFragment",
+          "@id/action_debugMenuFragment_to_browsePlansFragment"
+        ],
+        "args": []
+      },
+      {
+        "name": "com.meetup.feature.home.HomeFragment",
+        "id": "@id/homeFragment",
+        "actions": [],
+        "args": []
+      },
+      {
+        "name": "com.meetup.base.browseplans.UpgradeFragment",
+        "id": "@id/browsePlansFragment",
+        "actions": [],
+        "args": []
+      }
+    ]
+  },
+  {
+    "graph": "events_nav_graph.xml",
+    "start": "@id/eventFragment",
+    "destinations": [
+      {
+        "name": "com.meetup.feature.event.ui.event.EventFragment",
+        "id": "@id/eventFragment",
+        "actions": [
+          "@id/actionGoingFragment",
+          "@id/actionEventFragmentToTicket",
+          "@id/actionSponsors"
+        ],
+        "args": [
+          "eventId",
+          "origin",
+          "groupUrlname",
+          "startAttend",
+          "subOrigin",
+          "campaign",
+          "dispatchId",
+          "categoryId",
+          "categoryName",
+          "date",
+          "distance",
+          "venue",
+          "timeOfDay",
+          "recommendationId",
+          "recommendationSource",
+          "searchId"
+        ]
+      },
+      {
+        "name": "com.meetup.feature.event.ui.event.sponsors.SponsorsFragment",
+        "id": "@id/eventSponsorsFragment",
+        "actions": [],
+        "args": [
+          "eventId"
+        ]
+      },
+      {
+        "name": "com.meetup.feature.event.ui.event.qr.ticket.TicketFragment",
+        "id": "@id/ticketFragment",
+        "actions": [],
+        "args": [
+          "eventId",
+          "eventTitle",
+          "memberName",
+          "groupName"
+        ]
+      },
+      {
+        "name": "com.meetup.feature.event.ui.event.rsvp.GoingFragment",
+        "id": "@id/goingFragment",
+        "actions": [
+          "@id/actionGoingFragmentToTicket"
+        ],
+        "args": [
+          "eventStart",
+          "eventEnd",
+          "eventTitle",
+          "eventDescription",
+          "eventVenue",
+          "eventTimezone",
+          "eventCategory",
+          "eventHost",
+          "eventId",
+          "shortUrl",
+          "groupName",
+          "shortDescription",
+          "hasFee",
+          "isWaitlisted",
+          "attendees",
+          "isHybridOnline",
+          "eventType",
+          "venueFromRsvp",
+          "showWaitlistCta",
+          "rsvpId",
+          "eventPaymentType"
+        ]
+      }
+    ]
+  },
+  {
+    "graph": "group_nav_graph.xml",
+    "start": "@id/groupTimelineFragment",
+    "destinations": [
+      {
+        "name": "com.meetup.feature.group.TimelineFragment",
+        "id": "@id/groupTimelineFragment",
+        "actions": [],
+        "args": [
+          "urlname",
+          "groupName",
+          "select_past_tab",
+          "origin",
+          "group_id"
+        ]
+      }
+    ]
+  },
+  {
+    "graph": "group_search_nav_graph.xml",
+    "start": "",
+    "destinations": [
+      {
+        "name": "com.meetup.feature.groupsearch.results.GroupSearchResultFragment",
+        "id": "@id/groupSearchResultFragment",
+        "actions": [],
+        "args": [
+          "query"
+        ]
+      }
+    ]
+  },
+  {
+    "graph": "nav_graph_secret_menu_lib.xml",
+    "start": "@id/secretMenuFragment",
+    "destinations": [
+      {
+        "name": "com.bendingspoons.secretmenu.ui.mainscreen.SecretMenuFragment",
+        "id": "@id/secretMenuFragment",
+        "actions": [
+          "@id/newSecretMenuFragment",
+          "@id/newSecretMenuCustomFragment"
+        ],
+        "args": []
+      },
+      {
+        "name": "com.bendingspoons.secretmenu.ui.mainscreen.SecretMenuCustomFragment",
+        "id": "@id/secretMenuCustomFragment",
+        "actions": [],
+        "args": []
+      }
+    ]
+  },
+  {
+    "graph": "resubscribe_nav_graph.xml",
+    "start": "@id/resubscribeFragment",
+    "destinations": [
+      {
+        "name": "com.meetup.subscription.resubscribe.ResubscribeFragment",
+        "id": "@id/resubscribeFragment",
+        "actions": [],
+        "args": []
+      }
+    ]
+  },
+  {
+    "graph": "settings_nav_graph.xml",
+    "start": "@id/settingsFragment",
+    "destinations": [
+      {
+        "name": "com.meetup.feature.settings.SettingsComposeFragment",
+        "id": "@id/settingsFragment",
+        "actions": [
+          "@id/action_settingsFragment_to_notificationsEnableGuideFragment",
+          "@id/settings_to_subscription_fragment",
+          "@id/settingsFragment_to_appIconFragment",
+          "@id/action_settingsFragment_to_notificationSettings"
+        ],
+        "args": []
+      },
+      {
+        "name": "com.meetup.feature.settings.notifs.NotificationsEnableGuideFragment",
+        "id": "@id/notificationsEnableGuideFragment",
+        "actions": [
+          "@id/action_notificationSettings_to_self"
+        ],
+        "args": [
+          "isEmail",
+          "groupId"
+        ]
+      }
+    ]
+  },
+  {
+    "graph": "step_up_nav_graph.xml",
+    "start": "@id/stepUpFragment",
+    "destinations": [
+      {
+        "name": "com.meetup.subscription.stepup.StepUpFragment",
+        "id": "@id/stepUpFragment",
+        "actions": [],
+        "args": [
+          "group_id",
+          "is_nominated",
+          "origin"
+        ]
+      }
+    ]
+  },
+  {
+    "graph": "terms_nav_graph.xml",
+    "start": "@id/termsFragment",
+    "destinations": [
+      {
+        "name": "com.meetup.library.termsofuse.CustomWebViewFragment",
+        "id": "@id/termsFragment",
+        "actions": [],
+        "args": [
+          "page",
+          "showToolbar",
+          "toolbarTitle"
+        ]
+      }
+    ]
+  }
+]

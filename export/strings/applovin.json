@@ -1,0 +1,12 @@
+{
+  "applovin_agree_message": "Please press \\\"Continue\\\" if you choose to start using our app.",
+  "applovin_alt_privacy_policy_text": "\n    <string name=\"applovin_continue_button_text\">Continue",
+  "applovin_creative_debugger_disabled_text": "Enable the Creative Debugger SDK settings in order to view recent ads.",
+  "applovin_creative_debugger_no_ads_text": "No recently displayed ads found.",
+  "applovin_list_item_image_description": "Displays more info about the list item.",
+  "applovin_pp_and_tos_title": "To use %s you must agree to our Terms &amp; Conditions and affirm you have reviewed our Privacy Policy",
+  "applovin_pp_title": "To use %s you must affirm that you have reviewed and acknowledged our Privacy Policy.",
+  "applovin_privacy_policy_text": "Privacy Policy",
+  "applovin_terms_of_service_text": "Terms &amp; Conditions",
+  "applovin_terms_of_use_text": "Terms of Use"
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/debug_nav_graph" app:startDestination="@id/debugMenuFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="DebugMenuFragment" android:name="com.meetup.feature.debugmenu.DebugMenuFragment" android:id="@id/debugMenuFragment">
+        <action android:id="@id/action_debugMenuFragment_to_homeFragment" app:destination="@id/homeFragment" />
+        <action android:id="@id/action_debugMenuFragment_to_browsePlansFragment" app:destination="@id/browsePlansFragment" />
+    </fragment>
+    <fragment android:label="HomeFragment" android:name="com.meetup.feature.home.HomeFragment" android:id="@id/homeFragment" />
+    <fragment android:label="HomeFragment" android:name="com.meetup.base.browseplans.UpgradeFragment" android:id="@id/browsePlansFragment" />
+</navigation>

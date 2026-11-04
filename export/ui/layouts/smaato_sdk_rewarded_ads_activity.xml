@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/smaato_sdk_rewarded_ads_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageButton android:layout_gravity="start|center|top" android:id="@id/smaato_sdk_rewarded_ads_close" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/smaato_sdk_core_activity_margin" android:src="@null" android:scaleType="centerCrop" android:contentDescription="Close Ad" />
+</merge>

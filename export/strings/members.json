@@ -1,0 +1,12 @@
+{
+  "members_category_awaiting_dues": "%1$d awaiting dues",
+  "members_category_banned": "%1$d banned",
+  "members_category_leadership": "%1$d leadership",
+  "members_category_members": "%1$d members",
+  "members_count": "%s members",
+  "members_label": "Members",
+  "members_menu_download_list": "Download member list",
+  "members_menu_manage_dues": "Manage dues",
+  "members_menu_sort_by": "Sort by",
+  "members_search_no_results": "Sorry, no matches this time. Try a different name—there’s always someone new to meet!"
+}

@@ -1,0 +1,11 @@
+{
+  "exo_download_completed": "Download completed",
+  "exo_download_description": "Download",
+  "exo_download_downloading": "Downloading",
+  "exo_download_failed": "Download failed",
+  "exo_download_notification_channel_name": "Downloads",
+  "exo_download_paused": "Downloads paused",
+  "exo_download_paused_for_network": "Downloads waiting for network",
+  "exo_download_paused_for_wifi": "Downloads waiting for WiFi",
+  "exo_download_removing": "Removing downloads"
+}

@@ -1,0 +1,19 @@
+{
+  "data_consent_body": "Meetup obtains your consent to collect and use personal information",
+  "data_consent_error_message": "Please review and agree to the data use policy",
+  "data_consent_marketing_materials": "I consent to use of my personal information for marketing purposes. (Optional, details below)",
+  "data_consent_optional_info_details_body": "\"Purpose: We use certain personal information for analytics and other business purposes.\nItems: Gender, date of birth, certain browser/device identifiers, social media account and demographic and other personal information that you choose to provide.\nRetention period: We retain your personal information for as long as necessary to meet the purposes of collection and use of the personal information. Meetup will destroy your personal information as soon as it is no longer needed, unless we have a legal or compliance purpose to retain it for longer.\"",
+  "data_consent_optional_info_details_title": "Collection of optional personal information",
+  "data_consent_optional_marketing_body": "\"Purpose: We use certain personal information for marketing purposes.\nItems: Name, username, email address, certain browser/device identifiers and demographic and other personal information that you choose to provide.\nRetention period: We retain your personal information for as long as necessary to meet the purpose of collection and use of the personal information. Meetup will destroy your personal information as soon as it is no longer needed, unless we have a legal or compliance purpose to retain it for longer. You may refuse to consent to the collection and use of optional personal information, but if you do, you are not able to use some of the services that entail the collection and use of such items.\"",
+  "data_consent_optional_marketing_title": "Collection of optional personal information for marketing purposes",
+  "data_consent_personal_info_details_body": "\"Purpose: We use certain personal information to provide our Service and communicate with you, and for compliance purposes.\nItems: Name, username, password, contact details, certain device identifiers and payment and commercial information, such as payment method data and purchases.\nRetention period: We retain your personal information for as long as necessary to meet the purposes of collection and use of the personal information. Meetup will destroy your personal information as soon as it is no longer needed, unless we have a legal or compliance purpose to retain it for longer.\"",
+  "data_consent_personal_info_details_title": "Collection of personal information",
+  "data_consent_terms_of_use": "I consent to the Terms of Use",
+  "data_consent_terms_of_use_annotation_text": "Terms of Use",
+  "data_consent_third_party_transfer": "I consent to the third party transfer of my personal information, including overseas.",
+  "data_consent_use_of_optional_information": "I consent to the collection and use of my optional information. You may refuse to consent to the collection and use of optional personal information, but if you do, you are not able to use some of the services that entail the collection and use of such items. (Optional, details below)",
+  "data_consent_use_of_optional_information_bold_text": "You may refuse to consent to the collection and use of optional personal information, but if you do, you are not able to use some of the services that entail the collection and use of such items.",
+  "data_consent_use_of_personal_info": "I consent to the collection and use of my personal information. You may refuse to consent to the collection and use of personal information, but if you do, you are not able to use our service. (Details below)",
+  "data_consent_use_of_personal_info_bold_text": "You may refuse to consent to the collection and use of personal information, but if you do, you are not able to use our service.",
+  "data_usage_consent": "Data usage consent"
+}

@@ -1,0 +1,8 @@
+{
+  "venue_create_error_generic": "There was an error submitting the venue",
+  "venue_create_error_missing_address": "Please enter an address",
+  "venue_create_error_missing_city": "Please enter a city",
+  "venue_create_error_missing_country": "Please select a country",
+  "venue_create_error_missing_name": "Please enter a venue name",
+  "venue_create_error_missing_state": "Please select a state"
+}

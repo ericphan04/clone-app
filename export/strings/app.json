@@ -1,0 +1,10 @@
+{
+  "app_icon": "App icon",
+  "app_icon_title": "App Icon",
+  "app_info_item": "App Version and Build number",
+  "app_name": "Meetup",
+  "app_theme_dark": "Dark",
+  "app_theme_light": "Light",
+  "app_update_action_restart": "RESTART",
+  "app_update_downloaded": "App update has been downloaded"
+}

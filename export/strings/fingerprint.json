@@ -1,0 +1,9 @@
+{
+  "fingerprint_dialog_touch_sensor": "Touch the fingerprint sensor",
+  "fingerprint_error_hw_not_available": "Fingerprint hardware not available.",
+  "fingerprint_error_hw_not_present": "This device does not have a fingerprint sensor",
+  "fingerprint_error_lockout": "Too many attempts. Please try again later.",
+  "fingerprint_error_no_fingerprints": "No fingerprints enrolled.",
+  "fingerprint_error_user_canceled": "Fingerprint operation canceled by user.",
+  "fingerprint_not_recognized": "Not recognized"
+}

@@ -1,0 +1,11 @@
+{
+  "redeem": "Redeem",
+  "redeem_gift_code": "Redeem Gift Code",
+  "redeem_gift_code_error_820": "Incorrect gift code",
+  "redeem_gift_code_error_821": "Already used gift code",
+  "redeem_gift_code_error_822": "Expired gift code",
+  "redeem_gift_code_error_823": "Cannot redeem again gift code",
+  "redeem_gift_code_item": "Redeem Gift Code",
+  "redeem_gift_code_message": "Insert your code here:",
+  "redeem_gift_code_success": "Gift Code redeemed successfully!"
+}

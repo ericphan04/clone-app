@@ -1,0 +1,23 @@
+{
+  "rokt_copy_link": "Copy Link",
+  "rokt_description_menu_button_refresh": "Menu button refresh",
+  "rokt_err_init_failed": "Rokt initialization failed!",
+  "rokt_err_init_failed_font": "Rokt initialization failed!. Could not download font",
+  "rokt_err_init_not_completed": "Rokt SDK has not been initialized!",
+  "rokt_err_network_failure": "Network failure!",
+  "rokt_err_no_matching_placeholder": "No matching embedded placeholder!",
+  "rokt_err_no_offers": "No offers available!",
+  "rokt_err_no_widget": "No widget available!",
+  "rokt_err_placement_not_closed": "No overlay placements open!",
+  "rokt_err_request_timeout": "Request timeout!",
+  "rokt_loading": "Loading...",
+  "rokt_menu_back": "menu_back",
+  "rokt_menu_browser": "menu_browser",
+  "rokt_menu_copy": "menu_copy",
+  "rokt_menu_forward": "menu_forward",
+  "rokt_menu_refresh": "menu_refresh",
+  "rokt_menu_share": "menu_share",
+  "rokt_open_in_browser": "Open in Browser",
+  "rokt_share": "Share...",
+  "rokt_text_loading": "Loading..."
+}

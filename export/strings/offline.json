@@ -1,0 +1,10 @@
+{
+  "offline_dialog_image_description": "Icon",
+  "offline_dialog_text": "\"Thanks for your interest.\nWe will share more once you're back online.\"",
+  "offline_notification_title": "\"You are back online! Let's pick up where we left off\"",
+  "offline_notification_title_with_advertiser": "You are back online! Continue learning about %s",
+  "offline_opt_in_confirm": "OK",
+  "offline_opt_in_decline": "No thanks",
+  "offline_opt_in_message": "\"We'll send you a notification with a link to the advertiser site.\"",
+  "offline_opt_in_title": "\"Open ad when you're back online.\""
+}

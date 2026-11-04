@@ -1,0 +1,12 @@
+{
+  "generic_error": "Sorry, something went wrong. Please try again.",
+  "generic_error_message": "Something went wrong.",
+  "generic_error_no_device_credential": "No PIN, pattern, or password set.",
+  "generic_error_no_keyguard": "This device does not support PIN, pattern, or password.",
+  "generic_error_title": "Oops",
+  "generic_error_user_canceled": "Authentication canceled by user.",
+  "generic_help_center_server_error": "Received a %s error: Sorry, something went wrong. Please try again or check out our Help Center for more assistance.",
+  "generic_network_error_message": "Please check your network connection and try again.",
+  "generic_network_error_title": "Network Error",
+  "generic_server_error": "Sorry, something went wrong. Please try again."
+}

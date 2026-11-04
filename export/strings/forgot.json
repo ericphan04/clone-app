@@ -1,0 +1,8 @@
+{
+  "forgot_password_error_subtitle": "Something went wrong, please try again later.",
+  "forgot_password_hint": "Your email address",
+  "forgot_password_send": "Send",
+  "forgot_password_send_email_subtitle": "We sent an email to verify %1$s If you can’t find it, check the spam folder.",
+  "forgot_password_send_email_title": "Sent! Check your email.",
+  "forgot_password_send_email_title_v2": "Check your email."
+}

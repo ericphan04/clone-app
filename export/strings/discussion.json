@@ -1,0 +1,13 @@
+{
+  "discussion_delete_error": "Failed to delete discussion",
+  "discussion_deleted": "Discussion deleted",
+  "discussion_details_replies": "Replies",
+  "discussion_details_reply_error": "Failed to send reply",
+  "discussion_details_reply_posted": "Reply sent",
+  "discussion_details_title": "Discussion",
+  "discussion_details_write_reply": "Write a reply...",
+  "discussion_notifications_turn_off": "Turn off notifications for replies",
+  "discussion_notifications_turn_on": "Turn on notifications for replies",
+  "discussion_posted": "Discussion posted",
+  "discussion_size": "%1$d/%2$d"
+}

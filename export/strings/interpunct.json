@@ -1,0 +1,6 @@
+{
+  "interpunct": "•",
+  "interpunct_separated_text": "%1$s • %2$s",
+  "interpunct_separated_text_2_spaces": "%1$s • %2$s",
+  "interpunct_separated_text_no_location": "%1$s •"
+}

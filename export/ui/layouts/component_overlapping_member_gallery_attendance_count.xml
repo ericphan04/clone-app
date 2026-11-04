@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:textColor="?android:textColorSecondary" android:id="@id/attendance_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/member_gallery_text_margin" class="com.meetup.feature.legacy.ui.OverlappingMemberGallery$AttendanceCount" style="@style/Meetup.Text.Small"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

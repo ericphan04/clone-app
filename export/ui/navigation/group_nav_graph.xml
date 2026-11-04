@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/group_nav_graph" app:startDestination="@id/groupTimelineFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <activity android:name="com.meetup.feature.group.GroupActivity" android:id="@id/groupActivity">
+        <deepLink app:uri="https://www.meetup.com/group" />
+    </activity>
+    <fragment android:name="com.meetup.feature.group.TimelineFragment" android:id="@id/groupTimelineFragment">
+        <argument android:name="urlname" app:argType="string" />
+        <argument android:name="groupName" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="select_past_tab" app:argType="boolean" />
+        <argument android:name="origin" app:argType="com.meetup.library.tracking.data.conversion.OriginType" />
+        <argument android:name="group_id" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+    </fragment>
+</navigation>

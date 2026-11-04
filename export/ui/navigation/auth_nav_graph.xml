@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/auth_nav_graph"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <activity android:name="com.meetup.feature.auth.AuthActivity" android:id="@id/authActivity" />
+    <activity android:name="com.meetup.feature.auth.LogoutActivity" android:id="@id/logoutActivity">
+        <deepLink app:uri="https://www.meetup.com/logout" />
+    </activity>
+    <fragment android:label="Intro" android:name="com.meetup.feature.auth.fragments.IntroFragment" android:id="@id/introFragment">
+        <deepLink app:uri="meetup://forgot-password/recover" />
+        <deepLink app:uri="meetup://registration/mobile-success" />
+    </fragment>
+    <include app:graph="@navigation/terms_nav_graph">
+        <argument android:name="page" app:argType="com.meetup.library.termsofuse.Page" />
+        <argument android:name="title" android:defaultValue="" app:argType="string" />
+    </include>
+    <fragment android:label="IntegrityFailedFragment" android:name="com.meetup.feature.auth.fragments.IntegrityFailedFragment" android:id="@id/integrityFailedFragment" />
+</navigation>

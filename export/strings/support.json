@@ -1,0 +1,12 @@
+{
+  "support_activity_title": "Support",
+  "support_articles_list_fragment_error_message": "@string/articles_list_fragment_error_message",
+  "support_articles_list_fragment_no_articles_found": "@string/articles_list_fragment_no_articles_found",
+  "support_categories_list_fragment_error_message": "@string/categories_list_fragment_error_message",
+  "support_conversations_menu": "Conversations",
+  "support_email_address": "support@meetup.com",
+  "support_help_search_no_results_label": "@string/help_search_no_results_label",
+  "support_help_see_all_articles_label": "@string/help_see_all_articles_label",
+  "support_help_see_all_n_articles_label": "@string/help_see_all_n_articles_label",
+  "support_sections_list_fragment_error_message": "@string/sections_list_fragment_error_message"
+}

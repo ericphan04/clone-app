@@ -1,0 +1,9 @@
+{
+  "chat_messages_notifications_prompt_body": "Turn on message notifications in Meetup settings so you don’t miss a reply.",
+  "chat_messages_notifications_prompt_confirm": "Open notification settings",
+  "chat_messages_notifications_prompt_title": "Get notified about new messages",
+  "chat_notifications_prompt_body": "Turn on Meetup notifications in Settings to know when they reply.",
+  "chat_notifications_prompt_confirm": "Turn on notifications",
+  "chat_notifications_prompt_dismiss": "Later",
+  "chat_notifications_prompt_title": "Get notified when they respond"
+}

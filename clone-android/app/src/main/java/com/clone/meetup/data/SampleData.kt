@@ -1,0 +1,240 @@
+package com.clone.meetup.data
+
+/** Mirrors com.meetup.feature.event.model / group model shapes as seen in the nav-graph args. */
+data class Event(
+    val id: String,
+    val title: String,
+    val groupName: String,
+    val groupUrlname: String,
+    val startEpochMillis: Long,
+    val endEpochMillis: Long,
+    val timezone: String,
+    val venueName: String,
+    val venueCity: String,
+    val category: String,
+    val imageUrl: String,
+    val attendeeCount: Int,
+    val attendeeAvatars: List<String>,
+    val isOnline: Boolean = false,
+    val isFeatured: Boolean = false,
+    val isLive: Boolean = false,
+    val hasFee: Boolean = false,
+    val description: String = "",
+    val host: String = "",
+)
+
+data class Group(
+    val id: String,
+    val name: String,
+    val urlname: String,
+    val memberCount: Int,
+    val coverUrl: String,
+    val topics: List<String>,
+    val city: String,
+    val isPrivate: Boolean = false,
+    val nextEventTitle: String? = null,
+)
+
+data class Category(
+    val id: String,
+    val label: String,
+    val emoji: String,
+)
+
+data class MessageThread(
+    val id: String,
+    val title: String,
+    val preview: String,
+    val timestamp: String,
+    val avatarUrl: String,
+    val unread: Boolean,
+    val isGroupChat: Boolean,
+)
+
+data class Notification(
+    val id: String,
+    val title: String,
+    val body: String,
+    val timestamp: String,
+    val avatarUrl: String,
+    val isUnread: Boolean,
+)
+
+object SampleData {
+
+    val categories = listOf(
+        Category("arts", "Arts", "\uD83C\uDFA8"),
+        Category("career", "Career & Business", "\uD83D\uDCBC"),
+        Category("community", "Community", "\uD83E\uDD1D"),
+        Category("dance", "Dance", "\uD83D\uDC83"),
+        Category("food", "Food & Drink", "\uD83C\uDF7D"),
+        Category("games", "Games", "\uD83C\uDFAE"),
+        Category("health", "Health & Wellbeing", "\uD83E\uDDD8"),
+        Category("hobbies", "Hobbies & Crafts", "\uD83E\uDDF6"),
+        Category("lgbtq", "LGBTQ", "\uD83C\uDF08"),
+        Category("music", "Music", "\uD83C\uDFB5"),
+        Category("outdoors", "Outdoors & Adventure", "\u26F0"),
+        Category("pets", "Pets & Animals", "\uD83D\uDC3E"),
+        Category("photography", "Photography", "\uD83D\uDCF7"),
+        Category("sports", "Sports & Fitness", "\uD83C\uDFC3"),
+        Category("tech", "Technology", "\uD83D\uDCBB"),
+        Category("travel", "Travel", "\u2708"),
+        Category("writing", "Writing", "\u270D"),
+    )
+
+    val events = listOf(
+        Event(
+            id = "e1",
+            title = "Sunset Rooftop Social \u2014 Golden Hour Mixer",
+            groupName = "Downtown Social Club",
+            groupUrlname = "downtown-social-club",
+            startEpochMillis = 1_793_600_400_000,
+            endEpochMillis = 1_793_611_200_000,
+            timezone = "Asia/Saigon",
+            venueName = "The Lighthouse Rooftop",
+            venueCity = "Ho Chi Minh City",
+            category = "Social Activities",
+            imageUrl = "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=1200",
+            attendeeCount = 148,
+            attendeeAvatars = listOf(
+                "https://i.pravatar.cc/100?img=12",
+                "https://i.pravatar.cc/100?img=22",
+                "https://i.pravatar.cc/100?img=32",
+                "https://i.pravatar.cc/100?img=42",
+            ),
+            isFeatured = true,
+            description = "Rooftop, golden hour, no agenda. Come for the view, stay for the people. Drinks at the bar, name tags at the door, conversations that outlast the sun.",
+            host = "Minh Tran",
+        ),
+        Event(
+            id = "e2",
+            title = "Saturday Morning Trail Run \u2014 10K",
+            groupName = "Saigon Trail Runners",
+            groupUrlname = "saigon-trail-runners",
+            startEpochMillis = 1_793_700_000_000,
+            endEpochMillis = 1_793_709_600_000,
+            timezone = "Asia/Saigon",
+            venueName = "Tao Dan Park, Gate 2",
+            venueCity = "Ho Chi Minh City",
+            category = "Sports & Fitness",
+            imageUrl = "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200",
+            attendeeCount = 34,
+            attendeeAvatars = listOf(
+                "https://i.pravatar.cc/100?img=5",
+                "https://i.pravatar.cc/100?img=15",
+                "https://i.pravatar.cc/100?img=25",
+            ),
+            description = "Easy pace, two water stops, breakfast after. All levels welcome \u2014 the group regroups every 2km.",
+            host = "Linh Pham",
+        ),
+        Event(
+            id = "e3",
+            title = "Product Design Critique Night",
+            groupName = "Designers of Saigon",
+            groupUrlname = "designers-of-saigon",
+            startEpochMillis = 1_793_800_000_000,
+            endEpochMillis = 1_793_810_800_000,
+            timezone = "Asia/Saigon",
+            venueName = "Toong Co-working, District 1",
+            venueCity = "Ho Chi Minh City",
+            category = "Career & Business",
+            imageUrl = "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1200",
+            attendeeCount = 62,
+            attendeeAvatars = listOf(
+                "https://i.pravatar.cc/100?img=8",
+                "https://i.pravatar.cc/100?img=18",
+            ),
+            description = "Bring one screen. Get honest feedback from six designers who don't owe you politeness. Bring a laptop, 10 minutes each.",
+            host = "An Vo",
+        ),
+        Event(
+            id = "e4",
+            title = "Vietnamese Home Cooking Workshop",
+            groupName = "Kitchen Wanderers",
+            groupUrlname = "kitchen-wanderers",
+            startEpochMillis = 1_793_900_000_000,
+            endEpochMillis = 1_793_910_800_000,
+            timezone = "Asia/Saigon",
+            venueName = "Bep Nha Studio, Binh Thanh",
+            venueCity = "Ho Chi Minh City",
+            category = "Food & Drink",
+            imageUrl = "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1200",
+            attendeeCount = 18,
+            attendeeAvatars = listOf(
+                "https://i.pravatar.cc/100?img=33",
+                "https://i.pravatar.cc/100?img=44",
+            ),
+            hasFee = true,
+            description = "Two dishes, one afternoon, everything from scratch. We eat together at the end. Fee covers ingredients.",
+            host = "Chi Nguyen",
+        ),
+        Event(
+            id = "e5",
+            title = "Online: Build a Habit in 30 Days",
+            groupName = "Habit Lab",
+            groupUrlname = "habit-lab",
+            startEpochMillis = 1_794_000_000_000,
+            endEpochMillis = 1_794_003_600_000,
+            timezone = "Asia/Saigon",
+            venueName = "Online event",
+            venueCity = "",
+            category = "Health & Wellbeing",
+            imageUrl = "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200",
+            attendeeCount = 240,
+            attendeeAvatars = listOf("https://i.pravatar.cc/100?img=60"),
+            isOnline = true,
+            description = "A 60-minute working session. You leave with one habit, one trigger, one checkpoint. Camera optional.",
+            host = "Dr. Ha Le",
+        ),
+    )
+
+    val groups = listOf(
+        Group("g1", "Downtown Social Club", "downtown-social-club", 12_400,
+            "https://images.unsplash.com/photo-1543007630-9710e4a00a20?w=800",
+            listOf("Social", "Meetups", "Nightlife"), "Ho Chi Minh City", nextEventTitle = "Sunset Rooftop Social"),
+        Group("g2", "Saigon Trail Runners", "saigon-trail-runners", 3_180,
+            "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800",
+            listOf("Running", "Outdoors"), "Ho Chi Minh City", nextEventTitle = "Saturday Morning Trail Run"),
+        Group("g3", "Designers of Saigon", "designers-of-saigon", 8_920,
+            "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=800",
+            listOf("Design", "Career"), "Ho Chi Minh City", nextEventTitle = "Product Design Critique Night"),
+        Group("g4", "Kitchen Wanderers", "kitchen-wanderers", 1_760,
+            "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=800",
+            listOf("Cooking", "Food"), "Ho Chi Minh City", nextEventTitle = "Cooking Workshop"),
+        Group("g5", "Habit Lab", "habit-lab", 24_100,
+            "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800",
+            listOf("Self-improvement"), "Online", nextEventTitle = "Build a Habit"),
+        Group("g6", "Saigon Film Society", "saigon-film-society", 5_420,
+            "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800",
+            listOf("Film", "Arts"), "Ho Chi Minh City", isPrivate = true),
+    )
+
+    val threads = listOf(
+        MessageThread("t1", "Sunset Rooftop Social", "Minh: Who's arriving early? I'll grab the corner table.", "2m",
+            "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=200", true, true),
+        MessageThread("t2", "Linh Pham", "Great run this morning \u2014 same time next week?", "1h",
+            "https://i.pravatar.cc/200?img=15", true, false),
+        MessageThread("t3", "Designers of Saigon", "An: Slides from last night are up.", "Yesterday",
+            "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=200", false, true),
+        MessageThread("t4", "Chi Nguyen", "Recipe attached. Tell me how it turns out.", "2d",
+            "https://i.pravatar.cc/200?img=33", false, false),
+    )
+
+    val notifications = listOf(
+        Notification("n1", "New event in Downtown Social Club",
+            "Sunset Rooftop Social \u2014 Saturday, 6:00 PM", "12m",
+            "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=200", true),
+        Notification("n2", "Minh Tran commented",
+            "\u201CBringing two friends, hope that's okay!\u201D", "1h",
+            "https://i.pravatar.cc/200?img=12", true),
+        Notification("n3", "You're going to Trail Run 10K",
+            "Saturday, 6:30 AM \u2014 Tao Dan Park", "Yesterday",
+            "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=200", false),
+        Notification("n4", "An Vo posted an update",
+            "Critique night moved to 7:30 PM", "2d",
+            "https://i.pravatar.cc/200?img=8", false),
+    )
+
+    fun goingEvents(): List<Event> = events.take(2)
+    fun recommendedEvents(): List<Event> = events.drop(2)
+}

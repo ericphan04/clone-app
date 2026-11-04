@@ -1,0 +1,16 @@
+{
+  "email_already_exists_error": "Email already exists",
+  "email_already_using_error": "You are already using this email address on your account",
+  "email_change_description": "We’ll send you an email with a link to verify your new email. For your security, please enter your Meetup password to change your email. If you have logged into Meetup through Apple, Facebook, or Google, you may be required to reset your password to continue.",
+  "email_change_hint": "Enter new email",
+  "email_change_password_hint": "Enter password",
+  "email_change_title": "Edit email",
+  "email_notif_categories": "Categories",
+  "email_off_warning_body": "\"This will stop all email updates about: your messages and replies, comments, photos you are tagged in, product news, and suggestions.\n\nWe’ll still email you information about: your account, security, privacy &amp; policies, and payments.\"",
+  "email_off_warning_title": "Turn off email updates?",
+  "email_prefs_general": "From Meetup",
+  "email_prefs_groups": "Group notifications",
+  "email_shared_warning": "Your email address will be shared with %s.",
+  "email_successfully_changed_body": "We sent an email to verify %1$s. If you can’t find it, check the spam folder.",
+  "email_successfully_changed_title": "Check your email!"
+}

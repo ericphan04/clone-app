@@ -1,0 +1,18 @@
+{
+  "share": "Share",
+  "share_body": "Check out this Meetup with %1$s %2$s",
+  "share_body_group": "Check out %1$s %2$s on Meetup",
+  "share_body_group_twitter": "Check out %1$s %2$s on @Meetup",
+  "share_body_twitter": "Check out this @Meetup with %1$s %2$s",
+  "share_chooser_photo": "Share Photo…",
+  "share_chooser_title": "Share Meetup…",
+  "share_chooser_title_event": "Share this Meetup",
+  "share_chooser_title_group": "Share this group",
+  "share_event": "Share event",
+  "share_event_announce_success_share_text": "Check out this event on Meetup: %s",
+  "share_event_create_link": "Event link",
+  "share_photo_body_caption_v2": "\"%1$s\n\n%2$s\"",
+  "share_photo_body_v2": "\"A photo from %1$s.\n\n%2$s\"",
+  "share_photo_subject_v2": "Check out this photo from Meetup",
+  "share_your_event": "Share your event"
+}

@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" android:installLocation="internalOnly" android:requiredSplitTypes="base__abi,base__density" android:splitTypes="" android:targetSandboxVersion="2" package="com.meetup" platformBuildVersionCode="36" platformBuildVersionName="16">
+    <permission android:name="com.meetup.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.meetup.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <queries>
+        <package android:name="com.meetup.organizer"/>
+        <package android:name="com.meetup.organizer.debug"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="mailto"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.INSERT"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.OPEN_DOCUMENT"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="http"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT"/>
+        </intent>
+        <package android:name="com.facebook.katana"/>
+        <intent>
+            <action android:name="com.attribution.REFERRAL_PROVIDER"/>
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.INSERT"/>
+            <data android:mimeType="vnd.android.cursor.dir/event"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="sms"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.DIAL"/>
+            <data android:path="tel:"/>
+        </intent>
+        <intent>
+            <action android:name="androidx.browser.customtabs.CustomTabsService"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="http"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="market"/>
+        </intent>
+        <intent>
+            <action android:name="com.android.vending.billing.InAppBillingService.BIND"/>
+        </intent>
+        <intent>
+            <action android:name="com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND"/>
+        </intent>
+        <package android:name="com.google.android.apps.maps"/>
+        <intent>
+            <action android:name="com.digitalturbine.ignite.cl.IgniteRemoteService"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:maxSdkVersion="22" android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:maxSdkVersion="22" android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+    <uses-permission android:name="com.meetup.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <permission android:name="com.meetup.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:localeConfig="@xml/_generated_res_locale_config" android:name="com.meetup.MeetupMainApplication" android:networkSecurityConfig="@xml/network_security_config" android:requiredAccountType="@string/account_type" android:supportsRtl="false" android:theme="@style/Meetup" android:usesCleartextTraffic="true">
+        <profileable android:shell="true"/>
+        <meta-data android:name="firebase_crashlytics_collection_enabled" android:value="false"/>
+        <meta-data android:name="firebase_analytics_collection_enabled" android:value="false"/>
+        <meta-data android:name="google_analytics_default_allow_analytics_storage" android:value="true"/>
+        <meta-data android:name="google_analytics_default_allow_ad_storage" android:value="true"/>
+        <meta-data android:name="google_analytics_default_allow_ad_user_data" android:value="true"/>
+        <meta-data android:name="google_analytics_default_allow_ad_personalization_signals" android:value="true"/>
+        <meta-data android:name="google_analytics_automatic_screen_reporting_enabled" android:value="false"/>
+        <provider android:authorities="com.meetup.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="com.unity3d.services.core.configuration.AdsSdkInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="com.apollographql.apollo3.cache.normalized.sql.ApolloInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <provider android:authorities="com.meetup.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity android:name="com.meetup.feature.legacy.photos.ViewPhotosActivity" android:theme="@style/Meetup.ViewPhotos" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.meetup.feature.legacy.photos.PrePhotoUploadActivity" android:theme="@style/Meetup.ViewPhotos" android:windowSoftInputMode="adjustResize"/>
+        <activity android:launchMode="singleTop" android:name="com.meetup.feature.legacy.activity.RootActivity" android:theme="@style/Meetup.NoActionBarSplashScreen"/>
+        <activity-alias android:exported="true" android:launchMode="singleTop" android:name="com.meetup.feature.legacy.activity.BootstrapActivity" android:targetActivity="com.meetup.feature.legacy.activity.RootActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_summer_sunset" android:name="com.meetup.feature.legacy.activity.SummerSunset" android:targetActivity="com.meetup.feature.legacy.activity.RootActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_doodle" android:name="com.meetup.feature.legacy.activity.Doodle" android:targetActivity="com.meetup.feature.legacy.activity.RootActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_cotton_candy" android:name="com.meetup.feature.legacy.activity.CottonCandy" android:targetActivity="com.meetup.feature.legacy.activity.RootActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_confetti" android:name="com.meetup.feature.legacy.activity.Confetti" android:targetActivity="com.meetup.feature.legacy.activity.RootActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:name="com.meetup.feature.legacy.rsvp.FeeRequiredRsvpWebViewActivity"/>
+        <activity android:name="com.meetup.feature.legacy.event.ProNetworkWebViewActivity"/>
+        <activity android:name="com.meetup.feature.legacy.rsvp.FeeRsvpActivity"/>
+        <activity android:name="com.meetup.feature.legacy.activity.DuesWebViewActivity"/>
+        <activity android:name="com.meetup.feature.legacy.mugmup.GroupHomeActivity" android:theme="@style/Meetup.NoActionBar" android:windowSoftInputMode="adjustResize|stateUnchanged"/>
+        <activity android:name="com.meetup.feature.legacy.mugmup.GroupSettingsActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:name="com.meetup.feature.legacy.mugmup.discussions.AllDiscussionsActivity" android:theme="@style/Meetup.NoActionBar" android:windowSoftInputMode="adjustResize|stateUnchanged"/>
+        <activity android:name="com.meetup.feature.legacy.mugmup.discussions.DiscussionDetailActivity" android:theme="@style/Meetup.NoActionBar" android:windowSoftInputMode="adjustResize|stateUnchanged"/>
+        <activity android:exported="false" android:name="com.meetup.feature.legacy.coco.activity.ConversationActivity" android:parentActivityName="com.meetup.feature.legacy.activity.RootActivity" android:theme="@style/Meetup.NoActionBar" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.meetup.feature.legacy.activity.RootActivity"/>
+        </activity>
+        <activity android:label="@string/activity_title_join_requests" android:name="com.meetup.feature.legacy.activity.MemberApprovalActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:label="Member Approval Test" android:name="com.meetup.feature.legacy.activity.MemberApprovalDebugActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:label="@string/invite_your_friends" android:name="com.meetup.feature.legacy.start.FinitoActivity" android:theme="@style/Meetup"/>
+        <activity android:label="@string/comments_header" android:name="com.meetup.feature.legacy.mugmup.discussions.AllCommentsActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:name="com.meetup.feature.legacy.mugmup.discussions.AllCommentLikesActivity"/>
+        <activity android:exported="false" android:name="com.meetup.feature.legacy.notifs.NotifClickReceiverActivity" android:noHistory="true"/>
+        <activity android:name="com.meetup.feature.legacy.reporting.ContentReportingWebViewActivity"/>
+        <activity android:name="com.meetup.feature.legacy.activity.WebViewActivity"/>
+        <activity android:name="com.meetup.feature.legacy.tosgate.TosWebViewActivity"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="com.meetup.feature.legacy.deeplinks.DeepLinkDispatcherActivity" android:noHistory="true" android:theme="@style/Meetup.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="meetup"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="meetup.com"/>
+                <data android:host="www.meetup.com"/>
+                <data android:host="secure.meetup.com"/>
+                <data android:host="meet.meetup.com"/>
+                <data android:host="clicks.meetup.com"/>
+                <data android:host="meetu.ps"/>
+                <data android:host="email-analytics.meetup.com"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.meetup.feature.legacy.mugmup.photos.albums.PhotoAlbumsActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:name="com.meetup.feature.legacy.mugmup.photos.album.AlbumActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:name="com.meetup.feature.legacy.mugmup.photos.CustomUCropActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
+        <activity android:exported="true" android:name="com.facebook.CustomTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/fb_login_protocol_scheme"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="cct.com.meetup" android:scheme="fbconnect"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.meetup.feature.legacy.payment.PaymentsActivity"/>
+        <activity android:name="com.meetup.feature.legacy.mugmup.GroupHandoverWebViewActivity"/>
+        <service android:foregroundServiceType="dataSync" android:name="com.meetup.feature.legacy.http.PhotoUploadService"/>
+        <service android:exported="false" android:name="com.meetup.feature.legacy.notifs.NotifsService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name="com.meetup.feature.legacy.notifs.NotifReadReceiver"/>
+        <receiver android:exported="false" android:name="com.meetup.feature.membersub.ReminderReceiver"/>
+        <receiver android:exported="false" android:name="com.meetup.feature.legacy.notifs.BrazeOpenReceiver">
+            <intent-filter>
+                <action android:name="com.braze.push.intent.NOTIFICATION_RECEIVED"/>
+                <action android:name="com.braze.push.intent.NOTIFICATION_OPENED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.meetup.feature.legacy.receiver.AliasEnablerReceiver"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBz4_jW3LeW_GitKjuqN3NeWZLyknvVhTM"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.crashlytics.ApiKey" android:value="6eb437400a210d32072397602af56b02792cca67"/>
+        <meta-data android:name="asset_statements" android:resource="@string/asset_statements"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/ic_notification"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/deprecated_red_notif_bg"/>
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-8061946413537984~2320285934"/>
+        <meta-data android:name="com.google.android.gms.ads.AD_MANAGER_APP" android:value="true"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:exported="false" android:label="@string/about_meetup_title" android:name="com.meetup.feature.aboutmeetup.AboutMeetupActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:exported="false" android:name="com.meetup.feature.aboutmeetup.AboutPageWebViewActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:exported="false" android:name="com.meetup.feature.aboutmeetup.TermsOfServiceWebViewActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:exported="false" android:name="com.meetup.feature.aboutmeetup.PrivacyPolicyWebViewActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:exported="false" android:name="com.meetup.feature.aboutmeetup.CookiePolicyWebViewActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:exported="false" android:name="com.meetup.feature.aboutmeetup.ImpressumWebViewActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:exported="false" android:name="com.meetup.feature.aboutmeetup.OpenSourceLicensesWebViewActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:name="com.meetup.subscription.upgrade.SubscriptionScreenActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.meetup.subscription.stepup.StepUpActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.meetup.subscription.resubscribe.ResubscribeActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:launchMode="singleTop" android:name="com.meetup.subscription.resubscribe.ResubscribeWebActivity" android:theme="@style/Meetup"/>
+        <activity android:label="@string/title_subscription_plans" android:name="com.meetup.subscription.paymentInformation.PricePickerActivity" android:theme="@style/Meetup"/>
+        <activity android:name="com.meetup.subscription.common.GroupStartFlowActivity" android:theme="@style/Meetup.NoActionBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.meetup.subscription.common.CancellationActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:name="com.meetup.feature.debugmenu.DebugMenuActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:name="com.meetup.feature.settings.SettingsActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:name="com.meetup.feature.settings.DeactivateAccountWebViewActivity"/>
+        <activity android:name="com.meetup.feature.settings.GdprRequestWebViewActivity"/>
+        <receiver android:exported="false" android:label="@string/small_widget_label" android:name="com.meetup.feature.widget.SmallWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info_small"/>
+        </receiver>
+        <receiver android:exported="false" android:label="@string/small_widget_label" android:name="com.meetup.feature.widget.MediumWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info_medium"/>
+        </receiver>
+        <receiver android:exported="false" android:label="@string/large_widget_label" android:name="com.meetup.feature.widget.LargeWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info_large"/>
+        </receiver>
+        <service android:name="com.meetup.feature.widget.WidgetUpdateService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.meetup.feature.widget.LargeWidgetRemoteViewsService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <receiver android:exported="false" android:name="com.meetup.feature.widget.WidgetPinReceiver"/>
+        <receiver android:exported="false" android:name="com.meetup.feature.widget.WidgetRefreshReceiver"/>
+        <activity android:name="com.meetup.feature.event.ui.event.EventActivity" android:theme="@style/EventTheme.NoActionBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.meetup.feature.event.ui.webview.EventContactAttendeesWebViewActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:exported="false" android:name="com.meetup.feature.createevent.CreateEventActivity" android:theme="@style/Meetup.NoActionBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.meetup.feature.createevent.editPaymentOptions.PayPalSetupWebViewActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:exported="false" android:name="com.meetup.feature.createevent.editLink.ZoomSetupWebViewActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:name="com.meetup.feature.auth.AuthActivity" android:theme="@style/Meetup.NoActionBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:launchMode="singleTop" android:name="com.meetup.feature.auth.LogoutActivity"/>
+        <service android:exported="false" android:name="com.meetup.feature.auth.service.MeetupAuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator"/>
+        </service>
+        <activity android:name="com.meetup.feature.groupsearch.GroupSearchActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:label="@string/notifications_title" android:name="com.meetup.feature.notifications.NotificationsActivity" android:theme="@style/Meetup"/>
+        <activity android:exported="false" android:name="com.meetup.feature.group.GroupActivity" android:theme="@style/Meetup.NoActionBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.meetup.feature.group.confirmation.ConfirmationActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:exported="false" android:name="com.meetup.feature.group.members.presentation.MembersActivity" android:theme="@style/Meetup.NoActionBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.meetup.feature.group.members.webview.GroupManageDuesWebViewActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:exported="false" android:name="com.meetup.feature.group.members.webview.GroupDownloadMembersWebViewActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:exported="false" android:name="com.meetup.feature.home.yourgroups.YourGroupsListActivity"/>
+        <activity android:exported="false" android:name="com.meetup.feature.profile.ui.ProfileActivity" android:screenOrientation="portrait" android:theme="@style/Meetup.NoActionBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.meetup.feature.profile.ui.email.EditEmailActivity" android:theme="@style/Meetup.NoActionBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.meetup.feature.profile.ui.GoalSettingActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:name="com.meetup.feature.onboarding.NewOnboardingActivity" android:theme="@style/Meetup.NoActionBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.meetup.feature.membersub.MemberSubWebViewActivity"/>
+        <activity android:name="com.meetup.feature.membersub.MemberSubActivity" android:theme="@style/MemberSubTranslucentTheme"/>
+        <activity android:name="com.meetup.feature.membersub.MemberSubManageSubscriptionActivity"/>
+        <activity android:exported="false" android:label="@string/support_activity_title" android:name="zendesk.support.guide.HelpCenterActivity" android:theme="@style/ZendeskTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:label="@string/zs_view_article_loading_title" android:name="zendesk.support.guide.ViewArticleActivity" android:theme="@style/ZendeskTheme"/>
+        <activity android:exported="false" android:name="zendesk.support.request.RequestActivity" android:theme="@style/ZendeskTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:label="@string/request_list_activity_title" android:name="zendesk.support.requestlist.RequestListActivity" android:theme="@style/ZendeskTheme"/>
+        <activity android:name="com.meetup.base.pledge.PledgeWebActivity"/>
+        <activity android:name="com.meetup.base.auth.SignUpWebActivity"/>
+        <activity android:name="com.meetup.base.auth.LoginWebActivity"/>
+        <activity android:name="com.meetup.base.auth.VerificationWebActivity"/>
+        <activity android:name="com.meetup.base.browseplans.UpgradeActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <activity android:exported="false" android:name="com.meetup.base.attendees.SharedAttendeeListActivity" android:theme="@style/Meetup.NoActionBar.Translucent" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.meetup.base.swipeexperience.SwipeExperienceActivity" android:theme="@style/Meetup.NoActionBar"/>
+        <service android:enabled="false" android:exported="false" android:name="com.google.android.gms.metadata.ModuleDependencies">
+            <intent-filter>
+                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES"/>
+            </intent-filter>
+            <meta-data android:name="photopicker_activity:0:required" android:value=""/>
+        </service>
+        <activity android:exported="false" android:name="com.rokt.roktsdk.ui.overlay.RoktModalActivity" android:theme="@style/RoktTheme.AppCompat"/>
+        <activity android:configChanges="uiMode" android:name="com.rokt.roktsdk.internal.overlay.fullscreen.FullScreenActivity" android:screenOrientation="userPortrait" android:theme="@style/Theme.RoktSdk"/>
+        <activity android:configChanges="uiMode" android:excludeFromRecents="true" android:label="" android:name="com.rokt.roktsdk.internal.overlay.lightbox.LightBoxActivity" android:theme="@style/Theme.RoktSdk.LightBox"/>
+        <activity android:configChanges="uiMode" android:excludeFromRecents="true" android:label="" android:name="com.rokt.roktsdk.internal.overlay.bottomsheet.BottomSheetActivity" android:theme="@style/Theme.RoktSdk.LightBox"/>
+        <receiver android:exported="false" android:name="zendesk.support.DeepLinkingBroadcastReceiver">
+            <intent-filter>
+                <action android:name="zendesk.support"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.meetup.zendesk.support.SupportSdkStartupProvider" android:enabled="true" android:exported="false" android:name="zendesk.support.SupportSdkStartupProvider"/>
+        <activity android:name="com.bendingspoons.oracle.secretmenu.RedeemGiftCodeActivity" android:theme="@style/SecretMenuTransparent" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.bendingspoons.oracle.OracleLoginActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:exported="false" android:name="com.bendingspoons.oracle.impl.authentication.OracleAuthLauncherActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="com.bendingspoons.oracle.impl.authentication.OracleCallbackActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="callback" android:scheme="myapp"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.bendingspoons.concierge.ui.secretmenu.IDsActivity" android:theme="@style/SecretMenuTransparent" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="colorMode|density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:exported="true" android:label="ShowkaseBrowserActivity" android:name="com.airbnb.android.showkase.ui.ShowkaseBrowserActivity" android:theme="@style/Theme.App.NoActionBar"/>
+        <activity android:exported="false" android:name="com.bendingspoons.secretmenu.ui.SecretMenuActivity" android:theme="@style/Theme.AppCompat"/>
+        <activity android:autoRemoveFromRecents="true" android:name="com.bendingspoons.secretmenu.ui.items.exit.ExitActivity" android:theme="@android:style/Theme.NoDisplay"/>
+        <provider android:authorities="com.meetup.zendesk.support.GuideSdkStartupProvider" android:enabled="true" android:exported="false" android:name="zendesk.support.guide.GuideSdkStartupProvider"/>
+        <activity android:exported="false" android:name="zendesk.classic.messaging.MessagingActivity" android:windowSoftInputMode="adjustResize"/>
+        <service android:enabled="false" android:exported="false" android:name="androidx.camera.core.impl.MetadataHolderService">
+            <meta-data android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER" android:value="androidx.camera.camera2.Camera2Config$DefaultProvider"/>
+        </service>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider android:authorities="com.meetup.mlkitinitprovider" android:exported="false" android:initOrder="99" android:name="com.google.mlkit.common.internal.MlKitInitProvider"/>
+        <service android:enabled="true" android:exported="false" android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder">
+            <meta-data android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY" android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl"/>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:enabled="true" android:exported="false" android:fitsSystemWindows="true" android:name="androidx.credentials.playservices.HiddenActivity" android:theme="@style/Theme.Hidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:enabled="true" android:exported="false" android:fitsSystemWindows="true" android:name="androidx.credentials.playservices.IdentityCredentialApiHiddenActivity" android:theme="@style/Theme.Hidden"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.ktx.FirebaseDynamicLinksLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.FirebaseDynamicLinksKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.ktx.FirebaseConfigLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.ktx.FirebaseInstallationsLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:enableOnBackInvokedCallback="false" android:exported="false" android:hardwareAccelerated="true" android:name="com.unity3d.services.ads.adunit.AdUnitActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:enableOnBackInvokedCallback="false" android:exported="false" android:hardwareAccelerated="true" android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:enableOnBackInvokedCallback="false" android:exported="false" android:hardwareAccelerated="false" android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:enableOnBackInvokedCallback="false" android:exported="false" android:hardwareAccelerated="false" android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:enableOnBackInvokedCallback="false" android:exported="false" android:hardwareAccelerated="true" android:name="com.unity3d.ads.adplayer.FullScreenWebViewDisplay" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:enableOnBackInvokedCallback="false" android:exported="false" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <provider android:authorities="com.meetup.mobileadsinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.android.gms.ads.MobileAdsInitProvider"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.ads.AdService"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="com.google.android.gms.ads.OutOfContextTestingActivity"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.google.android.gms.ads.NotificationHandlerActivity" android:taskAffinity="" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING" android:value="true"/>
+        <meta-data android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION" android:value="true"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:hardwareAccelerated="true" android:name="com.inmobi.ads.rendering.InMobiAdActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+        <provider android:authorities="com.meetup.applovininitprovider" android:exported="false" android:initOrder="101" android:name="com.applovin.sdk.AppLovinInitProvider"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.applovin.adview.AppLovinFullscreenActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.applovin.adview.AppLovinFullscreenImmersiveActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.sdk.AppLovinWebViewActivity"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerDetailActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerMultiAdActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerAdUnitsListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerAdUnitDetailActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerCmpNetworksListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerTcfInfoListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerTcfStringActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerTestModeNetworkActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerUnifiedFlowActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerWaterfallSegmentsActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.creative.MaxCreativeDebuggerActivity" android:theme="@style/com.applovin.creative.CreativeDebuggerActivity.Theme"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity" android:theme="@style/com.applovin.creative.CreativeDebuggerActivity.Theme"/>
+        <service android:exported="false" android:name="com.applovin.impl.adview.activity.FullscreenAdService" android:stopWithTask="false"/>
+        <activity android:exported="false" android:name="com.appboy.ui.AppboyWebViewActivity"/>
+        <activity android:exported="false" android:name="com.braze.ui.BrazeWebViewActivity"/>
+        <activity android:exported="false" android:name="com.appboy.ui.activities.AppboyFeedActivity"/>
+        <activity android:exported="false" android:name="com.appboy.ui.activities.AppboyContentCardsActivity"/>
+        <activity android:exported="false" android:name="com.braze.ui.activities.ContentCardsActivity"/>
+        <activity android:exported="false" android:launchMode="singleInstance" android:name="com.braze.push.NotificationTrampolineActivity" android:theme="@style/Braze.PushTrampoline.Transparent"/>
+        <receiver android:exported="false" android:name="com.braze.push.BrazePushReceiver"/>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <meta-data android:name="com.google.android.play.billingclient.version" android:value="9.1.0"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivityV2" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+            <meta-data android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED" android:value="true"/>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.firebase.sessions.SessionLifecycleService"/>
+        <provider android:authorities="com.meetup.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <activity android:exported="true" android:name="androidx.compose.ui.tooling.PreviewActivity"/>
+        <provider android:authorities="com.meetup.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.meetup.zendesk.sdk.user.attachments" android:exported="false" android:grantUriPermissions="true" android:name="zendesk.core.MediaFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/zendesk_user_attachments"/>
+        </provider>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity" android:theme="@style/WhiteBackgroundTheme">
+            <intent-filter android:priority="-100">
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity" android:theme="@style/WhiteBackgroundTheme">
+            <intent-filter android:priority="-100">
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity" android:theme="@style/WhiteBackgroundDialogTheme">
+            <intent-filter android:priority="-100">
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="false" android:name="com.braze.receivers.BrazeActionReceiver"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <uses-library android:name="android.ext.adservices" android:required="false"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.facebook.ads.AudienceNetworkActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.meetup.AudienceNetworkContentProvider" android:exported="false" android:name="com.facebook.ads.AudienceNetworkContentProvider"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.vungle.ads.internal.ui.VungleActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <provider android:authorities="com.meetup.vungle-provider" android:exported="false" android:initOrder="102" android:name="com.vungle.ads.VungleProvider"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:launchMode="singleTop" android:name="com.smaato.sdk.rewarded.view.RewardedInterstitialAdActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="com.smaato.sdk.interstitial.view.InterstitialAdActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.smaato.sdk.core.browser.SmaatoSdkBrowserActivity"/>
+        <provider android:authorities="com.meetup.smaato-lifecycle-process" android:exported="false" android:name="com.smaato.sdk.core.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <provider android:authorities="com.meetup.com.squareup.picasso" android:exported="false" android:name="com.squareup.picasso.PicassoProvider"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="true" android:name="com.amazon.aps.ads.activity.ApsInterstitialActivity" android:theme="@style/NoWindow"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="true" android:name="com.amazon.device.ads.DTBInterstitialActivity"/>
+        <activity android:name="com.amazon.device.ads.DTBAdActivity"/>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:name="com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity" android:screenOrientation="fullUser"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:name="com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:name="com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:name="com.fyber.inneractive.sdk.activities.InternalStoreWebpageActivity" android:screenOrientation="sensor" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:name="com.fyber.inneractive.sdk.activities.FyberReportAdActivity" android:screenOrientation="fullUser"/>
+        <meta-data android:name="com.android.vending.splits.required" android:value="true"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="3"/>
+    </application>
+</manifest>

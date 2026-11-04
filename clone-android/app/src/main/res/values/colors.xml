@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Extracted from com.meetup res/values/colors.xml + values-night/colors.xml -->
+    <color name="palette_system_background">#FFFFFFFF</color>
+    <color name="palette_secondary_background">#FFF6F7F8</color>
+    <color name="palette_system_grey_1">#FF8E8E93</color>
+    <color name="palette_system_grey_5">#FFE5E5EA</color>
+    <color name="palette_system_grey_6">#FFF2F2F7</color>
+    <color name="palette_text_primary">#FF212121</color>
+    <color name="palette_viridian">#FF008294</color>
+    <color name="palette_peach">#FFF65858</color>
+
+    <color name="scrim">#99000000</color>
+
+</resources>

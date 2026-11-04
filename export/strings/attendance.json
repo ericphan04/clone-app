@@ -1,0 +1,8 @@
+{
+  "attendance_did_not_go": "Attendance set to didn’t go",
+  "attendance_edited_successfully": "Attendance edited successfully",
+  "attendance_goal_tooltip": "Set an event goal",
+  "attendance_tooltip_message": "Make a commitment to yourself. Set a goal for how many events you’ll go to this month.",
+  "attendance_tooltip_message_with_progress": "You attended an event and made progress towards your goal!",
+  "attendance_tracker": "%s event progress"
+}

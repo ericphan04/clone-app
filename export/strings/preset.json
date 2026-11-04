@@ -1,0 +1,23 @@
+{
+  "preset_date_filter_any": "Any day",
+  "preset_date_filter_any_upcoming": "All upcoming",
+  "preset_date_filter_choose_date": "Choose dates",
+  "preset_date_filter_choose_date_button": "Choose date",
+  "preset_date_filter_header": "Discover events by date",
+  "preset_date_filter_making_friends": "Good for making friends",
+  "preset_date_filter_next_week": "Next week",
+  "preset_date_filter_next_weekend": "Next weekend",
+  "preset_date_filter_starting_soon": "Starting soon",
+  "preset_date_filter_this_week": "This week",
+  "preset_date_filter_this_weekend": "This weekend",
+  "preset_date_filter_today": "Today",
+  "preset_date_filter_tomorrow": "Tomorrow",
+  "preset_date_filter_upcoming": "Upcoming",
+  "preset_date_filter_weekend": "Weekend",
+  "preset_event_type_filter_any_type": "Any type",
+  "preset_event_type_filter_in_person": "In person",
+  "preset_event_type_filter_indoor_only": "Indoor only",
+  "preset_event_type_filter_online": "Online",
+  "preset_event_type_filter_outdoor_only": "Outdoor only",
+  "preset_time_range_type_filter_any_time": "Any time"
+}

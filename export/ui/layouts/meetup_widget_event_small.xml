@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/event_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <ImageView android:id="@id/gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_event_bg_gradient" android:scaleType="fitXY" android:contentDescription="@null" />
+    <TextView android:textColor="@color/mu_color_widget_secondary_text_fixed" android:id="@id/going" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_tiny" android:maxLines="1" android:drawablePadding="@dimen/space_separator" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/space_tiny" android:layout_marginEnd="@dimen/space_tiny" style="@style/Meetup.Text.Tiny.Inverse" />
+    <TextView android:textColor="@color/mu_color_widget_primary_text_fixed" android:ellipsize="end" android:id="@id/event_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_above="@id/going" android:lineSpacingMultiplier="0.7" android:layout_marginStart="@dimen/space_tiny" android:layout_marginEnd="@dimen/space_tiny" style="@style/Meetup.Text.Tiny.Bold.Inverse" />
+    <TextView android:textColor="@color/mu_color_widget_secondary_text_fixed" android:id="@id/event_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_above="@id/event_title" android:layout_marginStart="@dimen/space_tiny" android:layout_marginEnd="@dimen/space_tiny" style="@style/Meetup.Text.Tiny.Inverse" />
+</RelativeLayout>

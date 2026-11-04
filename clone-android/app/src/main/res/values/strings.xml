@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meetup</string>
+
+    <!-- Root tabs — mirrors com.meetup.feature.legacy.activity.RootTab -->
+    <string name="tab_home">Home</string>
+    <string name="tab_explore">Explore</string>
+    <string name="tab_notifications">Notifications</string>
+    <string name="tab_messages">Messages</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_filters">Filters</string>
+    <string name="action_back">Back</string>
+    <string name="action_share">Share</string>
+    <string name="action_see_all">See all</string>
+</resources>

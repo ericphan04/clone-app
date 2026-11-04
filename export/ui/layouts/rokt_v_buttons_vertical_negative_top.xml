@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton android:gravity="center" android:id="@id/negative_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/rokt_bottom_action_button_height" android:textAllCaps="false" />
+    <androidx.appcompat.widget.AppCompatButton android:gravity="center" android:id="@id/positive_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rokt_material_default_margin_double" android:minHeight="@dimen/rokt_bottom_action_button_height" android:textAllCaps="false" />
+</LinearLayout>

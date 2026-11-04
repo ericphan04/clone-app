@@ -1,0 +1,11 @@
+{
+  "join_button_addon_dues": "%1$s/%2$s to join · %3$d day free trial",
+  "join_button_approval": "Request to join",
+  "join_details_questions_explanation": "Your answers to these <a href=\"#\">profile questions</a> are visible to the group’s leadership team.",
+  "join_details_questions_explanation_private": "Your answers to these <a href=\"#\">profile questions</a> will be visible to anyone in this group.",
+  "join_details_questions_explanation_public": "Your answers to these <a href=\"#\">profile questions</a> will be visible to the public.",
+  "join_request": "Request to Join",
+  "join_requested": "Requested",
+  "join_rsvp": "Join and RSVP",
+  "join_the_meetup_community": "Join the Meetup community"
+}

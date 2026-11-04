@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/create_event_nav_graph" app:startDestination="@id/startCreateEventFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="Start Create Event" android:name="com.meetup.feature.createevent.startCreateEvent.StartCreateEventFragment" android:id="@id/startCreateEventFragment">
+        <action android:id="@id/action_startCreateEventFragment_to_createEventFragment" app:destination="@id/createEventFragment" app:launchSingleTop="true" />
+    </fragment>
+    <fragment android:label="Create Event" android:name="com.meetup.feature.createevent.createEvent.CreateEventFragment" android:id="@id/createEventFragment">
+        <argument android:name="groupId" app:argType="long" />
+        <argument android:name="groupName" app:argType="string" />
+        <argument android:name="groupUrlName" app:argType="string" />
+        <argument android:name="eventId" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="isDraftEvent" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="mode" android:defaultValue="CREATE" app:argType="com.meetup.base.navigation.EventCreationMode" />
+        <action android:id="@id/action_createEventFragment_to_editTopicsFragment" app:destination="@id/editTopicsFragment" />
+        <action android:id="@id/action_createEventFragment_to_editLinkFragment" app:destination="@id/editLinkFragment" />
+        <action android:id="@id/action_createEventFragment_to_editLocationFragment" app:destination="@id/editLocationFragment" />
+        <action android:id="@id/action_createEventFragment_to_editHostsFragment" app:destination="@id/editHostsFragment" />
+        <action android:id="@id/action_createEventFragment_to_editDescriptionFragment" app:destination="@id/editDescriptionFragment" />
+        <action android:id="@id/action_createEventFragment_to_editQuestionFragment" app:destination="@id/editQuestionFragment" />
+        <action android:id="@id/action_createEventFragment_to_editPaymentOptionsFragment" app:destination="@id/editPaymentOptionsFragment" />
+        <action android:id="@id/action_createEventFragment_to_editWelcomeMessageFragment" app:destination="@id/editWelcomeMessageFragment" />
+        <action android:id="@id/action_createEventFragment_to_eventChatSettingsFragment" app:destination="@id/eventChatSettingsFragment" />
+    </fragment>
+    <fragment android:label="Edit Topics" android:name="com.meetup.feature.createevent.editTopics.EditTopicsFragment" android:id="@id/editTopicsFragment" />
+    <fragment android:label="Edit Link" android:name="com.meetup.feature.createevent.editLink.EditLinkFragment" android:id="@id/editLinkFragment" />
+    <fragment android:label="Edit Location" android:name="com.meetup.feature.createevent.editLocation.EditLocationFragment" android:id="@id/editLocationFragment" />
+    <fragment android:label="Edit Hosts" android:name="com.meetup.feature.createevent.editHosts.EditHostsFragment" android:id="@id/editHostsFragment" />
+    <fragment android:label="Edit Description" android:name="com.meetup.feature.createevent.editDescription.EditDescriptionFragment" android:id="@id/editDescriptionFragment" />
+    <fragment android:label="Edit Question" android:name="com.meetup.feature.createevent.editQuestion.EditQuestionFragment" android:id="@id/editQuestionFragment" />
+    <fragment android:label="Edit Welcome Message" android:name="com.meetup.feature.createevent.editWelcomeMessage.EditWelcomeMessageFragment" android:id="@id/editWelcomeMessageFragment" />
+    <fragment android:label="Event Chat" android:name="com.meetup.feature.createevent.eventChatSettings.EventChatSettingsFragment" android:id="@id/eventChatSettingsFragment" />
+    <fragment android:label="Edit Payment Options" android:name="com.meetup.feature.createevent.editPaymentOptions.EditPaymentOptionsFragment" android:id="@id/editPaymentOptionsFragment">
+        <action android:id="@id/action_editPaymentOptionsFragment_to_editPromoCodeFragment" app:destination="@id/editPromoCodeFragment" />
+        <action android:id="@id/action_editPaymentOptionsFragment_to_editDiscountFragment" app:destination="@id/editDiscountFragment" />
+    </fragment>
+    <fragment android:label="Edit Promo Code" android:name="com.meetup.feature.createevent.editPromoCode.EditPromoCodeFragment" android:id="@id/editPromoCodeFragment">
+        <argument android:name="isForOnline" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="promoCodeIndex" android:defaultValue="-1" app:argType="integer" />
+    </fragment>
+    <fragment android:label="Edit Discount" android:name="com.meetup.feature.createevent.editDiscount.EditDiscountFragment" android:id="@id/editDiscountFragment">
+        <argument android:name="isForOnline" android:defaultValue="false" app:argType="boolean" />
+    </fragment>
+</navigation>

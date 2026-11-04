@@ -1,0 +1,11 @@
+meetup-owned vi strings: 9
+
+com_appboy_feed_connection_error_body = Không thể thiết lập kết nối mạng. Vui lòng thử lại sau.
+com_appboy_feed_connection_error_title = Lỗi Kết Nối
+com_appboy_feed_empty = Chúng tôi không có cập nhật nào. Vui lòng kiểm tra lại sau.
+mc2_snackbar_pane_title = Cảnh báo
+navigation_menu = Trình đơn điều hướng
+notifications_permission_confirm = Cho phép
+notifications_permission_decline = Không cho phép
+notifications_permission_title = Cho phép ứng dụng gửi thông báo cho bạn?
+retention_third_party = Được xác định bởi bên thứ ba

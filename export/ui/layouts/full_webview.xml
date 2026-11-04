@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.compose.ui.platform.ComposeView android:id="@id/compose_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout android:id="@id/settings_choices" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:max="100" android:indeterminate="false" android:progressDrawable="@drawable/webview_progress_bar" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </FrameLayout>
+</LinearLayout>

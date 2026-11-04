@@ -1,0 +1,110 @@
+[
+  {
+    "target": "com.bendingspoons.oracle.impl.authentication.OracleCallbackActivity",
+    "scheme": "myapp",
+    "host": "callback",
+    "path": ""
+  },
+  {
+    "target": "com.facebook.CustomTabActivity",
+    "scheme": "@string/fb_login_protocol_scheme",
+    "host": "",
+    "path": ""
+  },
+  {
+    "target": "com.facebook.CustomTabActivity",
+    "scheme": "fbconnect",
+    "host": "cct.com.meetup",
+    "path": ""
+  },
+  {
+    "target": "com.meetup.feature.legacy.deeplinks.DeepLinkDispatcherActivity",
+    "scheme": "meetup",
+    "host": "",
+    "path": ""
+  },
+  {
+    "target": "com.meetup.feature.legacy.deeplinks.DeepLinkDispatcherActivity",
+    "scheme": "http",
+    "host": "clicks.meetup.com",
+    "path": ""
+  },
+  {
+    "target": "com.meetup.feature.legacy.deeplinks.DeepLinkDispatcherActivity",
+    "scheme": "http",
+    "host": "email-analytics.meetup.com",
+    "path": ""
+  },
+  {
+    "target": "com.meetup.feature.legacy.deeplinks.DeepLinkDispatcherActivity",
+    "scheme": "http",
+    "host": "meet.meetup.com",
+    "path": ""
+  },
+  {
+    "target": "com.meetup.feature.legacy.deeplinks.DeepLinkDispatcherActivity",
+    "scheme": "http",
+    "host": "meetu.ps",
+    "path": ""
+  },
+  {
+    "target": "com.meetup.feature.legacy.deeplinks.DeepLinkDispatcherActivity",
+    "scheme": "http",
+    "host": "meetup.com",
+    "path": ""
+  },
+  {
+    "target": "com.meetup.feature.legacy.deeplinks.DeepLinkDispatcherActivity",
+    "scheme": "http",
+    "host": "secure.meetup.com",
+    "path": ""
+  },
+  {
+    "target": "com.meetup.feature.legacy.deeplinks.DeepLinkDispatcherActivity",
+    "scheme": "http",
+    "host": "www.meetup.com",
+    "path": ""
+  },
+  {
+    "target": "com.meetup.feature.legacy.deeplinks.DeepLinkDispatcherActivity",
+    "scheme": "https",
+    "host": "clicks.meetup.com",
+    "path": ""
+  },
+  {
+    "target": "com.meetup.feature.legacy.deeplinks.DeepLinkDispatcherActivity",
+    "scheme": "https",
+    "host": "email-analytics.meetup.com",
+    "path": ""
+  },
+  {
+    "target": "com.meetup.feature.legacy.deeplinks.DeepLinkDispatcherActivity",
+    "scheme": "https",
+    "host": "meet.meetup.com",
+    "path": ""
+  },
+  {
+    "target": "com.meetup.feature.legacy.deeplinks.DeepLinkDispatcherActivity",
+    "scheme": "https",
+    "host": "meetu.ps",
+    "path": ""
+  },
+  {
+    "target": "com.meetup.feature.legacy.deeplinks.DeepLinkDispatcherActivity",
+    "scheme": "https",
+    "host": "meetup.com",
+    "path": ""
+  },
+  {
+    "target": "com.meetup.feature.legacy.deeplinks.DeepLinkDispatcherActivity",
+    "scheme": "https",
+    "host": "secure.meetup.com",
+    "path": ""
+  },
+  {
+    "target": "com.meetup.feature.legacy.deeplinks.DeepLinkDispatcherActivity",
+    "scheme": "https",
+    "host": "www.meetup.com",
+    "path": ""
+  }
+]

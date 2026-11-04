@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/dotsProgressBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/rokt_material_default_margin_double" />
+    <TextView android:id="@id/pre_offer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/rokt_material_default_margin_double" />
+    <com.rokt.roktsdk.internal.views.CreativeLayoutView android:id="@id/creative_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:id="@id/confirmation_message" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.rokt.roktsdk.internal.views.OfferButtonLayoutView android:id="@id/offer_button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:addHorizontalMargins="false" />
+    <TextView android:id="@id/disclaimer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rokt_material_default_margin_double" />
+    <TextView android:id="@id/after_offer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/lowerProgressBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rokt_material_default_margin_double" />
+</LinearLayout>

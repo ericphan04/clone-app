@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/footer_vertical_separator" android:background="@color/rokt_footer_separator_color" android:layout_width="fill_parent" android:layout_height="@dimen/rokt_footer_vertical_separator_thickness" android:layout_marginTop="@dimen/rokt_material_default_margin_double" />
+    <LinearLayout android:orientation="vertical" android:id="@id/footerViewContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rokt_material_default_margin_double" android:layout_below="@id/footer_vertical_separator">
+        <androidx.appcompat.widget.AppCompatTextView android:layout_gravity="end" android:id="@id/rokt_privacy_policy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/rokt_material_default_margin" />
+        <androidx.appcompat.widget.AppCompatTextView android:layout_gravity="end" android:id="@id/partner_privacy_policy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/rokt_material_default_margin" />
+    </LinearLayout>
+    <View android:id="@id/navigate_button_vertical_separator" android:background="@color/rokt_footer_separator_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rokt_footer_vertical_separator_thickness" android:layout_marginTop="@dimen/rokt_material_default_margin_double" android:layout_below="@id/footerViewContainer" />
+    <androidx.appcompat.widget.AppCompatButton android:gravity="center" android:id="@id/navigate_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rokt_material_default_margin_double" android:layout_marginBottom="@dimen/rokt_material_default_margin_double" android:minHeight="@dimen/rokt_bottom_action_button_height" android:layout_below="@id/navigate_button_vertical_separator" android:textAllCaps="false" android:layout_alignParentEnd="true" />
+</RelativeLayout>

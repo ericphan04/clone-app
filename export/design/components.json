@@ -1,0 +1,398 @@
+[
+  {
+    "style": "ActionButtonNoCaps",
+    "parent": "@style/Widget.AppCompat.ActionButton",
+    "items": {
+      "android:textAllCaps": "false"
+    }
+  },
+  {
+    "style": "Meetup.Alert.Dialog",
+    "parent": "@style/Theme.MaterialComponents.DayNight.Dialog.Alert",
+    "items": {
+      "android:colorControlNormal": "@color/color_control_normal",
+      "android:colorButtonNormal": "@color/color_control_normal",
+      "android:colorPrimary": "@color/color_secondary",
+      "android:colorAccent": "@color/color_secondary",
+      "colorAccent": "@color/color_secondary",
+      "colorButtonNormal": "@color/color_control_normal",
+      "colorControlNormal": "@color/color_control_normal",
+      "colorPrimary": "@color/color_secondary",
+      "colorSecondary": "@color/color_secondary",
+      "materialButtonStyle": "@style/Widget.MaterialComponents.Button.TextButton"
+    }
+  },
+  {
+    "style": "Meetup.Badge",
+    "parent": "@style/Widget.MaterialComponents.Badge",
+    "items": {
+      "backgroundColor": "?android:textColorLink",
+      "horizontalOffset": "@dimen/badge_dot_offset_x",
+      "verticalOffset": "@dimen/badge_dot_offset_y"
+    }
+  },
+  {
+    "style": "Meetup.BottomNavigationView",
+    "parent": "@style/Widget.MaterialComponents.BottomNavigationView.Colored",
+    "items": {
+      "itemIconTint": "@color/nav_icon_selector",
+      "itemTextColor": "@color/nav_icon_selector"
+    }
+  },
+  {
+    "style": "Meetup.Button",
+    "parent": "@style/Widget.MaterialComponents.Button",
+    "items": {
+      "android:textAppearance": "@style/Meetup.Text.Body.Medium.Link",
+      "android:textColor": "@color/mu_color_default_button_text",
+      "android:paddingTop": "@dimen/space_normal",
+      "android:paddingBottom": "@dimen/space_normal",
+      "android:layout_width": "wrap_content",
+      "android:layout_height": "wrap_content",
+      "android:backgroundTint": "@color/mu_color_default_button_grey",
+      "cornerRadius": "8.0dip",
+      "fontFamily": "@null",
+      "paddingEnd": "24.0dip",
+      "paddingStart": "24.0dip"
+    }
+  },
+  {
+    "style": "Meetup.Button.Important",
+    "parent": "@style/Meetup.Button",
+    "items": {
+      "android:textColor": "@color/mu_color_fixed_light_text_primary",
+      "android:backgroundTint": "@color/enable_or_disable_color_selector"
+    }
+  },
+  {
+    "style": "Meetup.Button.SignUp",
+    "parent": "@style/Meetup.Button",
+    "items": {
+      "android:textColor": "@color/primary_button_text_color",
+      "android:backgroundTint": "@color/palette_peach",
+      "iconTint": "@color/primary_button_text_color"
+    }
+  },
+  {
+    "style": "Meetup.Button.Text",
+    "parent": "@style/Widget.MaterialComponents.Button.TextButton",
+    "items": {
+      "android:textAppearance": "@style/Meetup.Text.Body.Medium.Link",
+      "android:textSize": "@null",
+      "android:textColor": "@null",
+      "android:paddingTop": "@dimen/space_normal",
+      "android:paddingBottom": "@dimen/space_normal",
+      "android:layout_width": "fill_parent",
+      "android:layout_height": "wrap_content",
+      "android:fontFamily": "@null",
+      "cornerRadius": "8.0dip",
+      "fontFamily": "@null",
+      "paddingEnd": "24.0dip",
+      "paddingStart": "24.0dip"
+    }
+  },
+  {
+    "style": "Meetup.Button.Text.Small",
+    "parent": "@style/Meetup.Button.Text",
+    "items": {
+      "android:textAppearance": "@style/Meetup.Text.Small.Medium.Link",
+      "android:padding": "@dimen/space_tiny",
+      "android:layout_width": "wrap_content"
+    }
+  },
+  {
+    "style": "Meetup.Dialog",
+    "parent": "@style/Theme.MaterialComponents.DayNight.Dialog",
+    "items": {
+      "android:windowBackground": "@color/color_background",
+      "android:colorPrimary": "@color/color_secondary",
+      "android:colorAccent": "@color/color_secondary",
+      "android:buttonBarPositiveButtonStyle": "@style/Meetup.Button.Text.Small",
+      "android:buttonBarNegativeButtonStyle": "@style/Meetup.Button.Text.Small",
+      "colorAccent": "@color/color_secondary",
+      "colorPrimary": "@color/color_secondary",
+      "colorSecondary": "@color/color_secondary",
+      "materialButtonStyle": "@style/Widget.MaterialComponents.Button.TextButton"
+    }
+  },
+  {
+    "style": "Meetup.Dialog.ToggleButtons",
+    "parent": "@style/Theme.MaterialComponents.DayNight.Dialog",
+    "items": {
+      "android:windowBackground": "@color/palette_black",
+      "colorAccent": "@color/palette_white",
+      "colorPrimary": "@color/palette_white",
+      "colorSecondary": "@color/palette_white",
+      "materialButtonStyle": "@style/Widget.MaterialComponents.Button.OutlinedButton",
+      "shapeAppearanceSmallComponent": "@style/ShapeAppearance.App.SmallComponent"
+    }
+  },
+  {
+    "style": "Meetup.Divider.Horizontal",
+    "parent": "@style/Meetup",
+    "items": {
+      "android:background": "@color/mu_color_divider",
+      "android:layout_width": "fill_parent",
+      "android:layout_height": "@dimen/divider_default_height"
+    }
+  },
+  {
+    "style": "Meetup.NoActionBar",
+    "parent": "@style/Meetup",
+    "items": {
+      "windowActionBar": "false",
+      "windowNoTitle": "true"
+    }
+  },
+  {
+    "style": "Meetup.NoActionBar.Translucent",
+    "parent": "@style/Meetup.NoActionBar",
+    "items": {
+      "android:windowBackground": "@android:color/transparent",
+      "android:windowIsTranslucent": "true"
+    }
+  },
+  {
+    "style": "Meetup.NoActionBarSplashScreen",
+    "parent": "@style/Theme.SplashScreen",
+    "items": {
+      "postSplashScreenTheme": "@style/Meetup.NoActionBar",
+      "windowActionBar": "false",
+      "windowNoTitle": "true",
+      "windowSplashScreenAnimatedIcon": "@drawable/ic_launcher_foreground"
+    }
+  },
+  {
+    "style": "Meetup.Preference.CategoryStyle",
+    "parent": "@style/Preference.Category",
+    "items": {
+      "android:layout": "@layout/pref_header",
+      "iconSpaceReserved": "false"
+    }
+  },
+  {
+    "style": "Meetup.Preference.Style",
+    "parent": "@style/Preference.PreferenceScreen",
+    "items": {
+      "android:layout": "@layout/pref_screen",
+      "iconSpaceReserved": "false"
+    }
+  },
+  {
+    "style": "Meetup.PreferenceTheme",
+    "parent": "@style/PreferenceThemeOverlay.v14.Material",
+    "items": {
+      "android:dividerHeight": "0.0dip",
+      "divider": "@null",
+      "preferenceCategoryStyle": "@style/Meetup.Preference.CategoryStyle",
+      "preferenceStyle": "@style/Meetup.Preference.Style"
+    }
+  },
+  {
+    "style": "Meetup.Text.Body",
+    "parent": "@style/TextAppearance.AppCompat.Body1",
+    "items": {
+      "android:textSize": "@dimen/text_size_body",
+      "android:lineSpacingExtra": "@dimen/line_spacing_body",
+      "fontFamily": "@font/graphik_regular"
+    }
+  },
+  {
+    "style": "Meetup.Text.Body.Medium",
+    "parent": "@style/Meetup.Text.Body",
+    "items": {
+      "fontFamily": "@font/graphik_medium"
+    }
+  },
+  {
+    "style": "Meetup.Text.Body.Medium.Link",
+    "parent": "@style/Meetup.Text.Body.Medium",
+    "items": {
+      "android:textColor": "?android:textColorLink"
+    }
+  },
+  {
+    "style": "Meetup.Text.Body.Tertiary",
+    "parent": "@style/Meetup.Text.Body",
+    "items": {
+      "android:textColor": "?android:textColorTertiary"
+    }
+  },
+  {
+    "style": "Meetup.Text.Link",
+    "parent": "@style/Meetup.Text.Body",
+    "items": {
+      "android:textColor": "@color/text_color_link"
+    }
+  },
+  {
+    "style": "Meetup.Text.Small",
+    "parent": "@style/Meetup.Text.Body",
+    "items": {
+      "android:textSize": "14.0sp"
+    }
+  },
+  {
+    "style": "Meetup.Text.Small.Medium",
+    "parent": "@style/Meetup.Text.Small",
+    "items": {
+      "fontFamily": "@font/graphik_medium"
+    }
+  },
+  {
+    "style": "Meetup.Text.Small.Medium.Gold",
+    "parent": "@style/Meetup.Text.Small.Medium",
+    "items": {
+      "android:textColor": "@color/palette_old_gold"
+    }
+  },
+  {
+    "style": "Meetup.Text.Small.Medium.Inverse",
+    "parent": "@style/Meetup.Text.Small.Medium",
+    "items": {
+      "android:textColor": "?android:textColorPrimaryInverse"
+    }
+  },
+  {
+    "style": "Meetup.Text.Small.Medium.Link",
+    "parent": "@style/Meetup.Text.Small.Medium",
+    "items": {
+      "android:textColor": "?android:textColorLink"
+    }
+  },
+  {
+    "style": "Meetup.Text.Small.Secondary",
+    "parent": "@style/Meetup.Text.Small",
+    "items": {
+      "android:textColor": "?android:textColorSecondary"
+    }
+  },
+  {
+    "style": "Meetup.Text.Tiny",
+    "parent": "@style/Meetup.Text.Body",
+    "items": {
+      "android:textSize": "12.0sp"
+    }
+  },
+  {
+    "style": "Meetup.Text.Tiny.Bold",
+    "parent": "@style/Meetup.Text.Body",
+    "items": {
+      "android:textSize": "12.0sp",
+      "fontFamily": "@font/graphik_medium"
+    }
+  },
+  {
+    "style": "Meetup.Text.Tiny.Bold.Inverse",
+    "parent": "@style/Meetup.Text.Tiny.Bold",
+    "items": {
+      "android:textColor": "@color/palette_white"
+    }
+  },
+  {
+    "style": "Meetup.Text.Tiny.Inverse",
+    "parent": "@style/Meetup.Text.Tiny",
+    "items": {
+      "android:textColor": "@color/palette_white"
+    }
+  },
+  {
+    "style": "Meetup.Text.Tiny.Secondary",
+    "parent": "@style/Meetup.Text.Tiny",
+    "items": {
+      "android:textColor": "?android:textColorSecondary"
+    }
+  },
+  {
+    "style": "Meetup.Text.Title",
+    "parent": "@style/Meetup",
+    "items": {
+      "android:textColor": "?android:textColorPrimary",
+      "android:lineSpacingMultiplier": "1.2"
+    }
+  },
+  {
+    "style": "Meetup.Text.Title1",
+    "parent": "@style/Meetup.Text.Title",
+    "items": {
+      "android:textSize": "32.0sp",
+      "android:lineSpacingExtra": "6.0dip",
+      "fontFamily": "@font/graphik_semibold"
+    }
+  },
+  {
+    "style": "Meetup.Text.Title3",
+    "parent": "@style/Meetup.Text.Title",
+    "items": {
+      "android:textSize": "20.0sp",
+      "fontFamily": "@font/graphik_semibold"
+    }
+  },
+  {
+    "style": "Meetup.ViewPhotos",
+    "parent": "@style/Meetup",
+    "items": {
+      "android:colorBackground": "@color/deprecated_black",
+      "android:windowBackground": "@drawable/deprecated_black",
+      "colorPrimaryDark": "@color/deprecated_black",
+      "windowActionBar": "false",
+      "windowNoTitle": "true"
+    }
+  },
+  {
+    "style": "Toolbar",
+    "parent": "@style/Widget.MaterialComponents.Toolbar.Primary",
+    "items": {
+      "android:background": "@color/palette_system_background",
+      "android:layout_width": "fill_parent",
+      "android:layout_height": "?actionBarSize",
+      "android:elevation": "@dimen/toolbar_elevation",
+      "displayOptions": "showHome|homeAsUp|showTitle",
+      "elevation": "@dimen/toolbar_elevation",
+      "titleTextAppearance": "@style/Toolbar.TitleText"
+    }
+  },
+  {
+    "style": "Toolbar.TitleText",
+    "parent": "@style/TextAppearance.MaterialComponents.Headline6",
+    "items": {
+      "android:fontFamily": "@font/graphik_medium",
+      "fontFamily": "@font/graphik_medium"
+    }
+  },
+  {
+    "style": "Widget.Meetup.TextInputLayout",
+    "parent": "@style/Widget.MaterialComponents.TextInputLayout.FilledBox",
+    "items": {
+      "android:textColorHint": "?android:textColorHint",
+      "android:layout_marginTop": "@dimen/space_normal",
+      "android:lineSpacingExtra": "@dimen/line_spacing_body",
+      "android:paddingStart": "@dimen/space_normal",
+      "android:paddingEnd": "@dimen/space_normal",
+      "boxBackgroundColor": "@color/transparent",
+      "boxStrokeColor": "@color/box_color_selector",
+      "fontFamily": "@font/graphik_regular",
+      "hintTextAppearance": "@style/Meetup.Text.Body.Tertiary",
+      "hintTextColor": "?colorSecondary",
+      "materialThemeOverlay": "@style/ThemeOverlay.AppTheme.TextInputEditText.FilledBox"
+    }
+  },
+  {
+    "style": "Widget.Meetup.TextInputLayout.Password",
+    "parent": "@style/Widget.Meetup.TextInputLayout",
+    "items": {
+      "passwordToggleDrawable": "@drawable/password_visibility_selector",
+      "passwordToggleEnabled": "true",
+      "passwordToggleTint": "?colorSecondary"
+    }
+  },
+  {
+    "style": "Widget.MeetupTextInputEditText",
+    "parent": "@style/Widget.AppCompat.EditText",
+    "items": {
+      "android:textColor": "?android:textColorPrimary",
+      "android:paddingTop": "28.0dip",
+      "android:paddingBottom": "12.0dip"
+    }
+  }
+]

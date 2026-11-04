@@ -1,0 +1,10 @@
+{
+  "ott_data_parsed_with_existing_data": "Profile switched with existing data.",
+  "ott_profile_already_active": "Profile already active, not downloading the data/not parsing the data again.",
+  "ott_profile_delete_profile_error": "Delete profile failed.",
+  "ott_profile_delete_profile_success": "Profile deleted successfully.",
+  "ott_profile_rename_profile_error": "Profile rename failed.",
+  "ott_profile_rename_profile_success": "Profile renamed successfully.",
+  "ott_profile_sdk_not_initialized": "Switch profile not supported without SDK initialized.",
+  "ott_profile_switch_profile_not_supported": "Switch profile not supported."
+}

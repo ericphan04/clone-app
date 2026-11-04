@@ -1,0 +1,7 @@
+{
+  "err_ott_callback_failure": "failed to fetch OT banner data",
+  "err_ott_empty_parameters": "Pass valid parameters to get the data",
+  "err_ott_geoloc_callback_failure": "failed to fetch Geolocation data",
+  "err_ott_invalid_language_code": "Pass a valid ISO Language code to get the data",
+  "err_ott_multi_profile_max_limit": "Max number of profiles already created. Please delete one of the profiles to be able to add a new one."
+}

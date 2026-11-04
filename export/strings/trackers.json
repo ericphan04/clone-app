@@ -1,0 +1,8 @@
+{
+  "trackers_analytics_firebase_description": "Firebase is a tool provided by Google which is essential for the app to work properly. When analytics features are enabled, it can help us to improve app’s traffic and performance.",
+  "trackers_privacy_policy_link_label": "Third-Party Privacy Policy",
+  "trackers_profiling_adjust_description": "Adjust is a mobile attribution tool. It helps us to measure the effectiveness of our ads.",
+  "trackers_profiling_bsp_description": "Our internal profiling software development kit (SDK). It allows us to provide customized services.",
+  "trackers_profiling_firebase_description": "Firebase is a tool provided by Google which is essential for the app to work properly. When profiling features are enabled, it can help us to measure the effectiveness of our ads.",
+  "trackers_profiling_generic_description": "%s allows us to show you advertising. When profiling features are enabled, advertising is customized according to your preferences."
+}

@@ -1,0 +1,12 @@
+{
+  "base_gender_female": "Female",
+  "base_gender_hint": "Gender",
+  "base_gender_male": "Male",
+  "base_gender_not_listed": "Not listed",
+  "base_gender_other": "Non-binary",
+  "base_reason_for_joining_build_network": "Build your professional network",
+  "base_reason_for_joining_make_friends": "Make new friends",
+  "base_reason_for_joining_not_set": "No reason added",
+  "base_reason_for_joining_practice_hobby": "Practice a hobby with others",
+  "base_reason_for_joining_socialize": "Socialize with others"
+}

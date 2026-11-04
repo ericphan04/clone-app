@@ -1,0 +1,16 @@
+{
+  "guest_limit_description": "Set a limit on how many guests each attendee can bring to the event. You can allow up to 5 guests per person.",
+  "guest_limit_remove_button_text": "Remove limit",
+  "guest_limit_removed": "Guests limit removed",
+  "guest_limit_set": "New guests limit set",
+  "guest_limit_title": "Guest limit",
+  "guest_subtitle_home": "See what you’ve got coming up plus the best suggested events near you.",
+  "guest_subtitle_messages": "Stay in touch with the members and organizers you meet.",
+  "guest_subtitle_notifications": "Be the first to hear about new events and groups near you.",
+  "guest_teaser_home": "Follow your groups and events",
+  "guest_teaser_messages": "Connect with other members",
+  "guest_teaser_notifications": "Stay in the loop and don’t miss out",
+  "guest_wall_description": "Save your spot at events and stay on top of what’s happening next.",
+  "guest_wall_dialog_message": "Welcome! Log in or sign up to continue",
+  "guest_wall_title": "Sign up to continue"
+}

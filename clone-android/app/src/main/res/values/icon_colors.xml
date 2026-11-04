@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Alias colors referenced by the harvested ic_*/mu_* vector drawables.
+      Resolved from com.meetup res/values/colors.xml so the original icon XML links
+      without modification. Values identical to the source where the alias existed;
+      the three absent ones (m3_chip_*, enable_or_disable_color_selector, colorControlNormal)
+      are filled with the Meetup token they were standing in for.
+    -->
+    <color name="color_on_primary">#FF212121</color>
+    <color name="color_secondary">#FF008294</color>
+
+    <color name="text_color_link">#FF008294</color>
+    <color name="text_color_secondary">#99212121</color>
+
+    <color name="palette_white">#FFFFFFFF</color>
+    <color name="whiteOT">#FFFFFFFF</color>
+    <color name="pledge_logo_color">#FF242142</color>
+
+    <!-- Material3 chip slots the extracted chip icons still name -->
+    <color name="m3_chip_text_color">#FF212121</color>
+    <color name="m3_chip_background_color">#FFF2F2F7</color>
+
+    <!-- Stands in for @color/enable_or_disable_color_selector (a ColorStateList in the APK) -->
+    <color name="enable_or_disable_color_selector">#FF008294</color>
+</resources>

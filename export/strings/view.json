@@ -1,0 +1,9 @@
+{
+  "view_article_attachments_error": "Failed to fetch attachments",
+  "view_article_html_body": "\"&lt;HTML dir=auto> &lt;HEAD>&lt;LINK href='%1$s' type='text/css' rel='stylesheet'/>&lt;/HEAD> &lt;body> &lt;h1 id=title>%2$s&lt;/h1> %3$s &lt;footer>&lt;p id=footerText>%4$s&lt;/p>&lt;/footer> &lt;/body> &lt;/HTML>\"",
+  "view_article_seperator": "•",
+  "view_article_vote_prompt": "Was this article helpful?",
+  "view_details": "View details",
+  "view_group": "View group",
+  "view_this_meetup": "View this Meetup"
+}

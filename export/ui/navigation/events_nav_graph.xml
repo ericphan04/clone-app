@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph" app:startDestination="@id/eventFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="Event" android:name="com.meetup.feature.event.ui.event.EventFragment" android:id="@id/eventFragment">
+        <action android:id="@id/actionGoingFragment" app:destination="@id/goingFragment" />
+        <action android:id="@id/actionEventFragmentToTicket" app:destination="@id/ticketFragment" />
+        <action android:id="@id/actionSponsors" app:destination="@id/eventSponsorsFragment" />
+        <argument android:name="eventId" android:defaultValue="" app:argType="string" />
+        <argument android:name="origin" android:defaultValue="" app:argType="string" />
+        <argument android:name="groupUrlname" android:defaultValue="" app:argType="string" />
+        <argument android:name="startAttend" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="subOrigin" android:defaultValue="" app:argType="string" />
+        <argument android:name="campaign" android:defaultValue="" app:argType="string" />
+        <argument android:name="dispatchId" android:defaultValue="" app:argType="string" />
+        <argument android:name="categoryId" android:defaultValue="" app:argType="string" />
+        <argument android:name="categoryName" android:defaultValue="" app:argType="string" />
+        <argument android:name="date" android:defaultValue="" app:argType="string" />
+        <argument android:name="distance" android:defaultValue="" app:argType="string" />
+        <argument android:name="venue" android:defaultValue="" app:argType="string" />
+        <argument android:name="timeOfDay" android:defaultValue="" app:argType="string" />
+        <argument android:name="recommendationId" android:defaultValue="" app:argType="string" />
+        <argument android:name="recommendationSource" android:defaultValue="" app:argType="string" />
+        <argument android:name="searchId" android:defaultValue="" app:argType="string" />
+    </fragment>
+    <fragment android:label="Sponsors Fragment" android:name="com.meetup.feature.event.ui.event.sponsors.SponsorsFragment" android:id="@id/eventSponsorsFragment">
+        <argument android:name="eventId" app:argType="string" />
+    </fragment>
+    <fragment android:label="TicketFragment" android:name="com.meetup.feature.event.ui.event.qr.ticket.TicketFragment" android:id="@id/ticketFragment">
+        <argument android:name="eventId" app:argType="string" />
+        <argument android:name="eventTitle" android:defaultValue="" app:argType="string" />
+        <argument android:name="memberName" android:defaultValue="" app:argType="string" />
+        <argument android:name="groupName" android:defaultValue="" app:argType="string" />
+    </fragment>
+    <fragment android:label="GoingFragment" android:name="com.meetup.feature.event.ui.event.rsvp.GoingFragment" android:id="@id/goingFragment">
+        <argument android:name="eventStart" app:argType="long" />
+        <argument android:name="eventEnd" app:argType="long" />
+        <argument android:name="eventTitle" app:argType="string" />
+        <argument android:name="eventDescription" app:argType="string" />
+        <argument android:name="eventVenue" app:argType="com.meetup.feature.event.model.Venue" app:nullable="true" />
+        <argument android:name="eventTimezone" app:argType="string" />
+        <argument android:name="eventCategory" app:argType="string" />
+        <argument android:name="eventHost" app:argType="string" />
+        <argument android:name="eventId" app:argType="string" />
+        <argument android:name="shortUrl" app:argType="string" />
+        <argument android:name="groupName" app:argType="string" />
+        <argument android:name="shortDescription" app:argType="string" />
+        <argument android:name="hasFee" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="isWaitlisted" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="attendees" app:argType="com.meetup.feature.event.model.Attendees" />
+        <argument android:name="isHybridOnline" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="eventType" app:argType="com.meetup.domain.event.EventType" />
+        <argument android:name="venueFromRsvp" app:argType="string" app:nullable="true" />
+        <argument android:name="showWaitlistCta" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="rsvpId" app:argType="string" app:nullable="true" />
+        <argument android:name="eventPaymentType" app:argType="string" app:nullable="true" />
+        <action android:id="@id/actionGoingFragmentToTicket" app:destination="@id/ticketFragment" />
+    </fragment>
+</navigation>

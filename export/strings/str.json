@@ -1,0 +1,21 @@
+{
+  "str_ada_copy": "Copy",
+  "str_ada_open_link": "open in a WebView",
+  "str_back": "Back",
+  "str_consent": "Consent",
+  "str_filter_item_checkbox_action_select": "select",
+  "str_ot_close_icon_desc": "Banner view Close",
+  "str_ot_close_text_desc": "Continue without accepting Banner. This will dismiss banner and save default consent values",
+  "str_ot_logo_description": "Banner view Logo",
+  "str_ot_options": "Options",
+  "str_ot_renderui_error_msg": "No data found to render the UI, Please initialize the SDK and try again.",
+  "str_ot_ucp_title": "Consent Purposes",
+  "str_ot_vl_back_desc": "\"Back icon for Vendor List \"",
+  "str_pc_ot_logo_description": "Preference Center view Logo",
+  "str_preference_center_view_close": "Preference Center View Close",
+  "str_qr_code_description": "Vendor Privacy policy QR code",
+  "str_tv_a_f": "A - F",
+  "str_tv_g_l": "G - L",
+  "str_tv_m_r": "M - R",
+  "str_tv_s_z": "S - Z"
+}

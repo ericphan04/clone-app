@@ -1,0 +1,16 @@
+{
+  "content_description_add_comments_button": "Add Comments to Event",
+  "content_description_add_photos_button": "Add Photos to Event",
+  "content_description_copy_event_button": "Copy Event",
+  "content_description_delete_event_button": "Delete Event",
+  "content_description_edit_event_button": "Edit Event",
+  "content_description_like_comment": "Like comment",
+  "content_description_more": "More options",
+  "content_description_save_event_icon": "Save event",
+  "content_description_share_event_icon": "Share event",
+  "content_description_tab_attending": "Going",
+  "content_description_tab_messages": "@string/conversations_messages",
+  "content_description_unlike_comment": "Un-like comment",
+  "content_description_unsave_event_icon": "Unsave event",
+  "content_unavailable_error": "Sorry, this content is unavailable."
+}

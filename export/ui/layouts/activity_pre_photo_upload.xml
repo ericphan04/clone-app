@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/content_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_alignParentTop="true" app:navigationIcon="@drawable/ic_arrow_back" style="@style/Toolbar" />
+    <com.ortiz.touch.TouchImageView android:id="@id/the_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/edit_caption" android:layout_below="@id/toolbar" />
+    <View android:layout_below="@id/the_image" style="@style/Meetup.Divider.Horizontal" />
+    <EditText android:id="@id/edit_caption" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/photos_caption_hint" android:singleLine="true" android:layout_alignParentBottom="true" android:imeOptions="actionDone" style="@style/Meetup.Text.Body" />
+    <View android:background="@drawable/header_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_elevation" android:layout_below="@id/toolbar" />
+</RelativeLayout>

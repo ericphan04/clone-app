@@ -1,0 +1,11 @@
+{
+  "failed_to_create_discussion": "Failed to create discussion",
+  "failed_to_delete_discussion": "Failed to delete discussion",
+  "failed_to_follow_discussion": "Failed to follow discussion",
+  "failed_to_load_more_discussions": "Failed to load more discussions",
+  "failed_to_make_change": "Failed to make a change",
+  "failed_to_refresh": "Failed to refresh",
+  "failed_to_unfollow_discussion": "Failed to unfollow discussion",
+  "failed_to_update_discussion_preferences": "Failed to update discussion preferences",
+  "failed_to_update_like": "Failed to update like"
+}

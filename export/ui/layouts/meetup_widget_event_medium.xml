@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/root" android:background="@color/color_background" android:padding="@dimen/space_tiny" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@color/color_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textColor="@color/text_color_secondary" android:id="@id/event_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentTop="true" style="@style/Meetup.Text.Tiny.Secondary" />
+            <TextView android:textColor="@color/color_on_background" android:ellipsize="end" android:id="@id/event_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/event_time" android:lineSpacingMultiplier="0.7" style="@style/Meetup.Text.Tiny.Bold.Inverse" />
+            <TextView android:textColor="@color/text_color_secondary" android:id="@id/going" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="@dimen/space_separator" android:layout_below="@id/event_title" style="@style/Meetup.Text.Tiny.Secondary" />
+            <TextView android:textColor="@color/text_color_secondary" android:id="@id/online_event" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_online_event_indicator" android:maxLines="1" android:drawablePadding="@dimen/space_separator" android:layout_below="@id/event_title" android:drawableStart="@drawable/ic_online_event" android:layout_marginStart="@dimen/space_tiny" android:layout_toEndOf="@id/going" android:drawableTint="@color/text_color_secondary" style="@style/Meetup.Text.Tiny.Secondary" />
+            <TextView android:textColor="@color/color_secondary" android:id="@id/more_events" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/widget_more_events" android:maxLines="1" android:layout_alignParentBottom="true" style="@style/Meetup.Text.Tiny.Bold.Inverse" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/event_photo" android:layout_width="86.0dip" android:layout_height="86.0dip" android:scaleType="centerCrop" android:adjustViewBounds="true" android:contentDescription="@null" android:layout_marginStart="@dimen/space_tiny" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+{
+  "cancel": "Cancel",
+  "cancel_confirmed": "You’ve canceled your subscription",
+  "cancel_event_button": "Delete event",
+  "cancel_event_text": "All event details and comments will be deleted",
+  "cancel_event_title": "Delete this event?",
+  "cancel_event_undo_button": "Not now",
+  "cancel_subscription": "Cancel Subscription",
+  "cancel_title": "Cancel"
+}

@@ -1,0 +1,8 @@
+{
+  "upload_photo": "Upload photo",
+  "upload_photo_notification": "Upload Photos",
+  "upload_photo_notification_cancelled_single": "Upload canceled",
+  "upload_photo_notification_failure_single": "Upload failed",
+  "upload_photo_notification_success": "Upload completed successfully",
+  "upload_photo_notification_uploading_single": "1 photo uploading"
+}

@@ -1,0 +1,20 @@
+{
+  "calendar_all_tab": "ALL",
+  "calendar_choose_dates": "Choose dates",
+  "calendar_description_with_url": "\"%1$s\n\nDetails: %2$s\"",
+  "calendar_details": "\"%1$s\n\nDetails: %2$s\"",
+  "calendar_icon_description": "Calendar",
+  "calendar_n_years": "%d years",
+  "calendar_rsvp_closed": "@string/rsvp_closed",
+  "calendar_rsvp_join_request": "@string/join_request",
+  "calendar_rsvp_join_rsvp": "@string/join_rsvp",
+  "calendar_rsvp_join_waitlist": "@string/rsvp_add_me_to_waitlist",
+  "calendar_rsvp_leave_waitlist": "@string/rsvp_remove_from_waitlist",
+  "calendar_rsvp_text_button_happening_now": "@string/event_happening_now",
+  "calendar_rsvp_text_button_join_rsvp": "@string/join_rsvp",
+  "calendar_rsvp_text_button_leave_waitlist": "@string/timeline_rsvp_waitlist",
+  "calendar_rsvp_text_button_no": "@string/no",
+  "calendar_rsvp_text_button_yes": "@string/yes",
+  "calendar_up_to_n_months": "Up to %d months",
+  "calendar_up_to_n_years": "up to %d years"
+}

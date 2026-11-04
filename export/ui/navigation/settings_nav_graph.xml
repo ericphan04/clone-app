@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/settings_nav_graph" app:startDestination="@id/settingsFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="SettingsFragment" android:name="com.meetup.feature.settings.SettingsComposeFragment" android:id="@id/settingsFragment">
+        <action android:id="@id/action_settingsFragment_to_notificationsEnableGuideFragment" app:destination="@id/notificationsEnableGuideFragment" />
+        <action android:id="@id/settings_to_subscription_fragment" app:destination="@id/subscriptionFragment" />
+        <action android:id="@id/settingsFragment_to_appIconFragment" app:destination="@id/appIconFragment" />
+        <action android:id="@id/action_settingsFragment_to_notificationSettings" app:destination="@id/notificationSettingsFragment" />
+    </fragment>
+    <fragment android:label="NotificationsEnableGuideFragment" android:name="com.meetup.feature.settings.notifs.NotificationsEnableGuideFragment" android:id="@id/notificationsEnableGuideFragment" />
+    <fragment android:label="SubscriptionSettingsComposeFragment" android:name="com.meetup.feature.settings.subscription.SubscriptionSettingsComposeFragment" android:id="@id/subscriptionFragment" android:tag="subscription_settings_fragment" />
+    <fragment android:label="AppIconFragment" android:name="com.meetup.feature.settings.subscription.AppIconFragment" android:id="@id/appIconFragment" />
+    <fragment android:label="NotificationSettingsFragment" android:name="com.meetup.feature.settings.NotificationSettingsComposeFragment" android:id="@id/notificationSettingsFragment">
+        <argument android:name="isEmail" app:argType="boolean" />
+        <argument android:name="groupId" android:defaultValue="0L" app:argType="long" />
+        <action android:id="@id/action_notificationSettings_to_self" app:destination="@id/notificationSettingsFragment" />
+    </fragment>
+</navigation>

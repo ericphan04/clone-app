@@ -1,0 +1,9 @@
+{
+  "call_notification_answer_action": "Answer",
+  "call_notification_answer_video_action": "Video",
+  "call_notification_decline_action": "Decline",
+  "call_notification_hang_up_action": "Hang Up",
+  "call_notification_incoming_text": "Incoming call",
+  "call_notification_ongoing_text": "Ongoing call",
+  "call_notification_screening_text": "Screening an incoming call"
+}

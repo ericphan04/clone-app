@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+      Mirrors @style/BaseTheme (parent Theme.MaterialComponents.DayNight) + @style/Meetup.
+      DayNight so the dark palette from values-night applies without extra wiring.
+    -->
+    <style name="Theme.MeetupClone" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/palette_system_background</item>
+        <item name="android:navigationBarColor">@color/palette_system_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/palette_system_background</item>
+
+        <!-- Supplies the two attrs the extracted ic_* vectors tint against -->
+        <item name="colorControlNormal">@color/palette_text_primary</item>
+        <item name="colorSecondary">@color/palette_viridian</item>
+    </style>
+
+</resources>

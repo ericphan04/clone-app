@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_action_take_photo" android:title="@string/menu_action_take_photo" app:showAsAction="never" />
+    <item android:id="@id/menu_action_select_photos" android:title="@string/menu_action_select_photos" app:showAsAction="never" />
+    <item android:id="@id/menu_action_select_photo" android:visible="false" android:title="@string/menu_action_select_photo" app:showAsAction="never" />
+    <item android:id="@id/menu_action_remove_photo" android:visible="false" android:title="@string/menu_action_remove_photo" app:showAsAction="never" />
+</menu>

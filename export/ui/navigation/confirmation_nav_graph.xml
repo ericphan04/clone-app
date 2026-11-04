@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph" app:startDestination="@id/confirmationFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="ConfirmationFragment" android:name="com.meetup.feature.group.confirmation.ConfirmationFragment" android:id="@id/confirmationFragment">
+        <argument android:name="groupId" app:argType="long" />
+        <argument android:name="urlName" app:argType="string" />
+        <argument android:name="name" app:argType="string" />
+        <argument android:name="origin" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="subOrigin" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="campaign" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="dispatchId" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="topic" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="groupPhoto" android:defaultValue="@null" app:argType="com.meetup.base.network.model.Photo" app:nullable="true" />
+        <argument android:name="groupPhotoLink" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="isApprovalNeeded" android:defaultValue="false" app:argType="boolean" />
+    </fragment>
+</navigation>

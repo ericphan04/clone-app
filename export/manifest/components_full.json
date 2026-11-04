@@ -1,0 +1,2526 @@
+[
+  {
+    "type": "activity",
+    "name": "androidx.compose.ui.tooling.PreviewActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "true",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "androidx.credentials.playservices.HiddenActivity",
+    "target": "",
+    "theme": "@style/Theme.Hidden",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "androidx.credentials.playservices.IdentityCredentialApiHiddenActivity",
+    "target": "",
+    "theme": "@style/Theme.Hidden",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+    "target": "",
+    "theme": "@style/WhiteBackgroundTheme",
+    "label": "",
+    "exported": "true",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [],
+        "category": [
+          "android.intent.category.LAUNCHER"
+        ],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "activity",
+    "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+    "target": "",
+    "theme": "@style/WhiteBackgroundTheme",
+    "label": "",
+    "exported": "true",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [],
+        "category": [
+          "android.intent.category.LAUNCHER"
+        ],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "activity",
+    "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+    "target": "",
+    "theme": "@style/WhiteBackgroundDialogTheme",
+    "label": "",
+    "exported": "true",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [],
+        "category": [
+          "android.intent.category.LAUNCHER"
+        ],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "activity",
+    "name": "com.airbnb.android.showkase.ui.ShowkaseBrowserActivity",
+    "target": "",
+    "theme": "@style/Theme.App.NoActionBar",
+    "label": "ShowkaseBrowserActivity",
+    "exported": "true",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.amazon.aps.ads.activity.ApsInterstitialActivity",
+    "target": "",
+    "theme": "@style/NoWindow",
+    "label": "",
+    "exported": "true",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.amazon.device.ads.DTBAdActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.amazon.device.ads.DTBInterstitialActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "true",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.android.billingclient.api.ProxyBillingActivity",
+    "target": "",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.android.billingclient.api.ProxyBillingActivityV2",
+    "target": "",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.appboy.ui.AppboyWebViewActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.appboy.ui.activities.AppboyContentCardsActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.appboy.ui.activities.AppboyFeedActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.adview.AppLovinFullscreenActivity",
+    "target": "",
+    "theme": "@android:style/Theme.NoTitleBar.Fullscreen",
+    "label": "",
+    "exported": "false",
+    "launchMode": "singleTop",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.adview.AppLovinFullscreenImmersiveActivity",
+    "target": "",
+    "theme": "@android:style/Theme.NoTitleBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "singleTop",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.creative.MaxCreativeDebuggerActivity",
+    "target": "",
+    "theme": "@style/com.applovin.creative.CreativeDebuggerActivity.Theme",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity",
+    "target": "",
+    "theme": "@style/com.applovin.creative.CreativeDebuggerActivity.Theme",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.mediation.MaxDebuggerActivity",
+    "target": "",
+    "theme": "@style/com.applovin.mediation.MaxDebuggerActivity.Theme",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.mediation.MaxDebuggerAdUnitDetailActivity",
+    "target": "",
+    "theme": "@style/com.applovin.mediation.MaxDebuggerActivity.Theme",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity",
+    "target": "",
+    "theme": "@style/com.applovin.mediation.MaxDebuggerActivity.Theme",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.mediation.MaxDebuggerAdUnitsListActivity",
+    "target": "",
+    "theme": "@style/com.applovin.mediation.MaxDebuggerActivity.Theme",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.mediation.MaxDebuggerCmpNetworksListActivity",
+    "target": "",
+    "theme": "@style/com.applovin.mediation.MaxDebuggerActivity.Theme",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.mediation.MaxDebuggerDetailActivity",
+    "target": "",
+    "theme": "@style/com.applovin.mediation.MaxDebuggerActivity.Theme",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.mediation.MaxDebuggerMultiAdActivity",
+    "target": "",
+    "theme": "@style/com.applovin.mediation.MaxDebuggerActivity.Theme",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity",
+    "target": "",
+    "theme": "@style/com.applovin.mediation.MaxDebuggerActivity.Theme",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.mediation.MaxDebuggerTcfInfoListActivity",
+    "target": "",
+    "theme": "@style/com.applovin.mediation.MaxDebuggerActivity.Theme",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.mediation.MaxDebuggerTcfStringActivity",
+    "target": "",
+    "theme": "@style/com.applovin.mediation.MaxDebuggerActivity.Theme",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity",
+    "target": "",
+    "theme": "@style/com.applovin.mediation.MaxDebuggerActivity.Theme",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.mediation.MaxDebuggerTestModeNetworkActivity",
+    "target": "",
+    "theme": "@style/com.applovin.mediation.MaxDebuggerActivity.Theme",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.mediation.MaxDebuggerUnifiedFlowActivity",
+    "target": "",
+    "theme": "@style/com.applovin.mediation.MaxDebuggerActivity.Theme",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.mediation.MaxDebuggerWaterfallSegmentsActivity",
+    "target": "",
+    "theme": "@style/com.applovin.mediation.MaxDebuggerActivity.Theme",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.applovin.sdk.AppLovinWebViewActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.bendingspoons.concierge.ui.secretmenu.IDsActivity",
+    "target": "",
+    "theme": "@style/SecretMenuTransparent",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.bendingspoons.oracle.OracleLoginActivity",
+    "target": "",
+    "theme": "@style/Theme.AppCompat.Light.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.bendingspoons.oracle.impl.authentication.OracleAuthLauncherActivity",
+    "target": "",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.bendingspoons.oracle.impl.authentication.OracleCallbackActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "true",
+    "launchMode": "singleTop",
+    "intentFilters": [
+      {
+        "action": [
+          "android.intent.action.VIEW"
+        ],
+        "category": [
+          "android.intent.category.DEFAULT",
+          "android.intent.category.BROWSABLE"
+        ],
+        "schemes": [
+          "myapp"
+        ],
+        "hosts": [
+          "callback"
+        ],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "activity",
+    "name": "com.bendingspoons.oracle.secretmenu.RedeemGiftCodeActivity",
+    "target": "",
+    "theme": "@style/SecretMenuTransparent",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.bendingspoons.secretmenu.ui.SecretMenuActivity",
+    "target": "",
+    "theme": "@style/Theme.AppCompat",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.bendingspoons.secretmenu.ui.items.exit.ExitActivity",
+    "target": "",
+    "theme": "@android:style/Theme.NoDisplay",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.braze.push.NotificationTrampolineActivity",
+    "target": "",
+    "theme": "@style/Braze.PushTrampoline.Transparent",
+    "label": "",
+    "exported": "false",
+    "launchMode": "singleInstance",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.braze.ui.BrazeWebViewActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.braze.ui.activities.ContentCardsActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.facebook.CustomTabActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "true",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "android.intent.action.VIEW"
+        ],
+        "category": [
+          "android.intent.category.DEFAULT",
+          "android.intent.category.BROWSABLE"
+        ],
+        "schemes": [
+          "@string/fb_login_protocol_scheme"
+        ],
+        "hosts": [],
+        "paths": []
+      },
+      {
+        "action": [
+          "android.intent.action.VIEW"
+        ],
+        "category": [
+          "android.intent.category.DEFAULT",
+          "android.intent.category.BROWSABLE"
+        ],
+        "schemes": [
+          "fbconnect"
+        ],
+        "hosts": [
+          "cct.com.meetup"
+        ],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "activity",
+    "name": "com.facebook.CustomTabMainActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.facebook.FacebookActivity",
+    "target": "",
+    "theme": "@style/com_facebook_activity_theme",
+    "label": "@string/app_name",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.facebook.ads.AudienceNetworkActivity",
+    "target": "",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.fyber.inneractive.sdk.activities.FyberReportAdActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity",
+    "target": "",
+    "theme": "@android:style/Theme.NoTitleBar.Fullscreen",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore",
+    "target": "",
+    "theme": "@android:style/Theme.NoTitleBar.Fullscreen",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.fyber.inneractive.sdk.activities.InternalStoreWebpageActivity",
+    "target": "",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.google.android.gms.ads.AdActivity",
+    "target": "",
+    "theme": "@android:style/Theme.Translucent",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.google.android.gms.ads.NotificationHandlerActivity",
+    "target": "",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "singleTask",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.google.android.gms.ads.OutOfContextTestingActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+    "target": "",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.google.android.gms.common.api.GoogleApiActivity",
+    "target": "",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+    "target": "",
+    "theme": "@style/Theme.PlayCore.Transparent",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.inmobi.ads.rendering.InMobiAdActivity",
+    "target": "",
+    "theme": "@android:style/Theme.NoTitleBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.base.attendees.SharedAttendeeListActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar.Translucent",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.base.auth.LoginWebActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.base.auth.SignUpWebActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.base.auth.VerificationWebActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.base.browseplans.UpgradeActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.base.pledge.PledgeWebActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.base.swipeexperience.SwipeExperienceActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.aboutmeetup.AboutMeetupActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "@string/about_meetup_title",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.aboutmeetup.AboutPageWebViewActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.aboutmeetup.CookiePolicyWebViewActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.aboutmeetup.ImpressumWebViewActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.aboutmeetup.OpenSourceLicensesWebViewActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.aboutmeetup.PrivacyPolicyWebViewActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.aboutmeetup.TermsOfServiceWebViewActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.auth.AuthActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.auth.LogoutActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "singleTop",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.createevent.CreateEventActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.createevent.editLink.ZoomSetupWebViewActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.createevent.editPaymentOptions.PayPalSetupWebViewActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.debugmenu.DebugMenuActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.event.ui.event.EventActivity",
+    "target": "",
+    "theme": "@style/EventTheme.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.event.ui.webview.EventContactAttendeesWebViewActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.group.GroupActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.group.confirmation.ConfirmationActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.group.members.presentation.MembersActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.group.members.webview.GroupDownloadMembersWebViewActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.group.members.webview.GroupManageDuesWebViewActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.groupsearch.GroupSearchActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.home.yourgroups.YourGroupsListActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.activity.DuesWebViewActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.activity.MemberApprovalActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "@string/activity_title_join_requests",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.activity.MemberApprovalDebugActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "Member Approval Test",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.activity.RootActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBarSplashScreen",
+    "label": "",
+    "exported": "",
+    "launchMode": "singleTop",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.activity.WebViewActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.coco.activity.ConversationActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.deeplinks.DeepLinkDispatcherActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "true",
+    "launchMode": "singleInstance",
+    "intentFilters": [
+      {
+        "action": [
+          "android.intent.action.VIEW"
+        ],
+        "category": [
+          "android.intent.category.DEFAULT",
+          "android.intent.category.BROWSABLE"
+        ],
+        "schemes": [
+          "meetup"
+        ],
+        "hosts": [],
+        "paths": []
+      },
+      {
+        "action": [
+          "android.intent.action.VIEW"
+        ],
+        "category": [
+          "android.intent.category.DEFAULT",
+          "android.intent.category.BROWSABLE"
+        ],
+        "schemes": [
+          "http",
+          "https"
+        ],
+        "hosts": [
+          "clicks.meetup.com",
+          "email-analytics.meetup.com",
+          "meet.meetup.com",
+          "meetu.ps",
+          "meetup.com",
+          "secure.meetup.com",
+          "www.meetup.com"
+        ],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.event.ProNetworkWebViewActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.mugmup.GroupHandoverWebViewActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.mugmup.GroupHomeActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.mugmup.GroupSettingsActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.mugmup.discussions.AllCommentLikesActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.mugmup.discussions.AllCommentsActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "@string/comments_header",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.mugmup.discussions.AllDiscussionsActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.mugmup.discussions.DiscussionDetailActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.mugmup.photos.CustomUCropActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.mugmup.photos.album.AlbumActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.mugmup.photos.albums.PhotoAlbumsActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.notifs.NotifClickReceiverActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.payment.PaymentsActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.photos.PrePhotoUploadActivity",
+    "target": "",
+    "theme": "@style/Meetup.ViewPhotos",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.photos.ViewPhotosActivity",
+    "target": "",
+    "theme": "@style/Meetup.ViewPhotos",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.reporting.ContentReportingWebViewActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.rsvp.FeeRequiredRsvpWebViewActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.rsvp.FeeRsvpActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.start.FinitoActivity",
+    "target": "",
+    "theme": "@style/Meetup",
+    "label": "@string/invite_your_friends",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.legacy.tosgate.TosWebViewActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.membersub.MemberSubActivity",
+    "target": "",
+    "theme": "@style/MemberSubTranslucentTheme",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.membersub.MemberSubManageSubscriptionActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.membersub.MemberSubWebViewActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.notifications.NotificationsActivity",
+    "target": "",
+    "theme": "@style/Meetup",
+    "label": "@string/notifications_title",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.onboarding.NewOnboardingActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.profile.ui.GoalSettingActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.profile.ui.ProfileActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.profile.ui.email.EditEmailActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.settings.DeactivateAccountWebViewActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.settings.GdprRequestWebViewActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.feature.settings.SettingsActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.subscription.common.CancellationActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.subscription.common.GroupStartFlowActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.subscription.paymentInformation.PricePickerActivity",
+    "target": "",
+    "theme": "@style/Meetup",
+    "label": "@string/title_subscription_plans",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.subscription.resubscribe.ResubscribeActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.subscription.resubscribe.ResubscribeWebActivity",
+    "target": "",
+    "theme": "@style/Meetup",
+    "label": "",
+    "exported": "",
+    "launchMode": "singleTop",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.subscription.stepup.StepUpActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.meetup.subscription.upgrade.SubscriptionScreenActivity",
+    "target": "",
+    "theme": "@style/Meetup.NoActionBar",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.rokt.roktsdk.internal.overlay.bottomsheet.BottomSheetActivity",
+    "target": "",
+    "theme": "@style/Theme.RoktSdk.LightBox",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.rokt.roktsdk.internal.overlay.fullscreen.FullScreenActivity",
+    "target": "",
+    "theme": "@style/Theme.RoktSdk",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.rokt.roktsdk.internal.overlay.lightbox.LightBoxActivity",
+    "target": "",
+    "theme": "@style/Theme.RoktSdk.LightBox",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.rokt.roktsdk.ui.overlay.RoktModalActivity",
+    "target": "",
+    "theme": "@style/RoktTheme.AppCompat",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.smaato.sdk.core.browser.SmaatoSdkBrowserActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.smaato.sdk.interstitial.view.InterstitialAdActivity",
+    "target": "",
+    "theme": "@android:style/Theme.NoTitleBar.Fullscreen",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.smaato.sdk.rewarded.view.RewardedInterstitialAdActivity",
+    "target": "",
+    "theme": "@android:style/Theme.NoTitleBar.Fullscreen",
+    "label": "",
+    "exported": "false",
+    "launchMode": "singleTop",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.unity3d.ads.adplayer.FullScreenWebViewDisplay",
+    "target": "",
+    "theme": "@android:style/Theme.NoTitleBar.Fullscreen",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.unity3d.services.ads.adunit.AdUnitActivity",
+    "target": "",
+    "theme": "@android:style/Theme.NoTitleBar.Fullscreen",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.unity3d.services.ads.adunit.AdUnitSoftwareActivity",
+    "target": "",
+    "theme": "@android:style/Theme.NoTitleBar.Fullscreen",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.unity3d.services.ads.adunit.AdUnitTransparentActivity",
+    "target": "",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar.Fullscreen",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity",
+    "target": "",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar.Fullscreen",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.vungle.ads.internal.ui.VungleActivity",
+    "target": "",
+    "theme": "@android:style/Theme.NoTitleBar.Fullscreen",
+    "label": "",
+    "exported": "",
+    "launchMode": "singleTop",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "zendesk.classic.messaging.MessagingActivity",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "zendesk.support.guide.HelpCenterActivity",
+    "target": "",
+    "theme": "@style/ZendeskTheme",
+    "label": "@string/support_activity_title",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "zendesk.support.guide.ViewArticleActivity",
+    "target": "",
+    "theme": "@style/ZendeskTheme",
+    "label": "@string/zs_view_article_loading_title",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "zendesk.support.request.RequestActivity",
+    "target": "",
+    "theme": "@style/ZendeskTheme",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity",
+    "name": "zendesk.support.requestlist.RequestListActivity",
+    "target": "",
+    "theme": "@style/ZendeskTheme",
+    "label": "@string/request_list_activity_title",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "activity-alias",
+    "name": "com.meetup.feature.legacy.activity.BootstrapActivity",
+    "target": "com.meetup.feature.legacy.activity.RootActivity",
+    "theme": "",
+    "label": "",
+    "exported": "true",
+    "launchMode": "singleTop",
+    "intentFilters": [
+      {
+        "action": [
+          "android.intent.action.MAIN"
+        ],
+        "category": [
+          "android.intent.category.LAUNCHER"
+        ],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "activity-alias",
+    "name": "com.meetup.feature.legacy.activity.Confetti",
+    "target": "com.meetup.feature.legacy.activity.RootActivity",
+    "theme": "",
+    "label": "",
+    "exported": "true",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "android.intent.action.MAIN"
+        ],
+        "category": [
+          "android.intent.category.LAUNCHER"
+        ],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "activity-alias",
+    "name": "com.meetup.feature.legacy.activity.CottonCandy",
+    "target": "com.meetup.feature.legacy.activity.RootActivity",
+    "theme": "",
+    "label": "",
+    "exported": "true",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "android.intent.action.MAIN"
+        ],
+        "category": [
+          "android.intent.category.LAUNCHER"
+        ],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "activity-alias",
+    "name": "com.meetup.feature.legacy.activity.Doodle",
+    "target": "com.meetup.feature.legacy.activity.RootActivity",
+    "theme": "",
+    "label": "",
+    "exported": "true",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "android.intent.action.MAIN"
+        ],
+        "category": [
+          "android.intent.category.LAUNCHER"
+        ],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "activity-alias",
+    "name": "com.meetup.feature.legacy.activity.SummerSunset",
+    "target": "com.meetup.feature.legacy.activity.RootActivity",
+    "theme": "",
+    "label": "",
+    "exported": "true",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "android.intent.action.MAIN"
+        ],
+        "category": [
+          "android.intent.category.LAUNCHER"
+        ],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "provider",
+    "name": "androidx.core.content.FileProvider",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "provider",
+    "name": "androidx.startup.InitializationProvider",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "provider",
+    "name": "com.applovin.sdk.AppLovinInitProvider",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "provider",
+    "name": "com.facebook.ads.AudienceNetworkContentProvider",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "provider",
+    "name": "com.facebook.internal.FacebookInitProvider",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "provider",
+    "name": "com.google.android.gms.ads.MobileAdsInitProvider",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "provider",
+    "name": "com.google.firebase.provider.FirebaseInitProvider",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "provider",
+    "name": "com.google.mlkit.common.internal.MlKitInitProvider",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "provider",
+    "name": "com.smaato.sdk.core.lifecycle.ProcessLifecycleOwnerInitializer",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "provider",
+    "name": "com.squareup.picasso.PicassoProvider",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "provider",
+    "name": "com.vungle.ads.VungleProvider",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "provider",
+    "name": "zendesk.core.MediaFileProvider",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "provider",
+    "name": "zendesk.support.SupportSdkStartupProvider",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "provider",
+    "name": "zendesk.support.guide.GuideSdkStartupProvider",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "receiver",
+    "name": "androidx.profileinstaller.ProfileInstallReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "true",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "androidx.profileinstaller.action.INSTALL_PROFILE"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      },
+      {
+        "action": [
+          "androidx.profileinstaller.action.SKIP_FILE"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      },
+      {
+        "action": [
+          "androidx.profileinstaller.action.SAVE_PROFILE"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      },
+      {
+        "action": [
+          "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "receiver",
+    "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "android.intent.action.BOOT_COMPLETED"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "receiver",
+    "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "true",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "receiver",
+    "name": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "receiver",
+    "name": "com.braze.push.BrazePushReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "receiver",
+    "name": "com.braze.receivers.BrazeActionReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "receiver",
+    "name": "com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "receiver",
+    "name": "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "receiver",
+    "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "receiver",
+    "name": "com.google.android.gms.analytics.AnalyticsReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "receiver",
+    "name": "com.google.android.gms.measurement.AppMeasurementReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "receiver",
+    "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "true",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "com.google.android.c2dm.intent.RECEIVE"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "receiver",
+    "name": "com.meetup.feature.legacy.notifs.BrazeOpenReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "com.braze.push.intent.NOTIFICATION_RECEIVED",
+          "com.braze.push.intent.NOTIFICATION_OPENED"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "receiver",
+    "name": "com.meetup.feature.legacy.notifs.NotifReadReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "receiver",
+    "name": "com.meetup.feature.legacy.receiver.AliasEnablerReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "receiver",
+    "name": "com.meetup.feature.membersub.ReminderReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "receiver",
+    "name": "com.meetup.feature.widget.LargeWidgetProvider",
+    "target": "",
+    "theme": "",
+    "label": "@string/large_widget_label",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "android.appwidget.action.APPWIDGET_UPDATE"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "receiver",
+    "name": "com.meetup.feature.widget.MediumWidgetProvider",
+    "target": "",
+    "theme": "",
+    "label": "@string/small_widget_label",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "android.appwidget.action.APPWIDGET_UPDATE"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "receiver",
+    "name": "com.meetup.feature.widget.SmallWidgetProvider",
+    "target": "",
+    "theme": "",
+    "label": "@string/small_widget_label",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "android.appwidget.action.APPWIDGET_UPDATE"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "receiver",
+    "name": "com.meetup.feature.widget.WidgetPinReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "receiver",
+    "name": "com.meetup.feature.widget.WidgetRefreshReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "receiver",
+    "name": "zendesk.support.DeepLinkingBroadcastReceiver",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "zendesk.support"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "service",
+    "name": "androidx.camera.core.impl.MetadataHolderService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "androidx.credentials.playservices.CredentialProviderMetadataHolder",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "androidx.room.MultiInstanceInvalidationService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "androidx.work.impl.background.systemjob.SystemJobService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "true",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "androidx.work.impl.foreground.SystemForegroundService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "com.applovin.impl.adview.activity.FullscreenAdService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "com.google.android.gms.ads.AdService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "com.google.android.gms.analytics.AnalyticsJobService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "com.google.android.gms.analytics.AnalyticsService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "com.google.android.gms.auth.api.signin.RevocationBoundService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "true",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "com.google.android.gms.measurement.AppMeasurementJobService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "com.google.android.gms.measurement.AppMeasurementService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "com.google.android.gms.metadata.ModuleDependencies",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "com.google.android.gms.metadata.MODULE_DEPENDENCIES"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "service",
+    "name": "com.google.firebase.components.ComponentDiscoveryService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "com.google.firebase.messaging.FirebaseMessagingService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "com.google.firebase.MESSAGING_EVENT"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "service",
+    "name": "com.google.firebase.sessions.SessionLifecycleService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "com.meetup.feature.auth.service.MeetupAuthenticatorService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "android.accounts.AccountAuthenticator"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "service",
+    "name": "com.meetup.feature.legacy.http.PhotoUploadService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "com.meetup.feature.legacy.notifs.NotifsService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "false",
+    "launchMode": "",
+    "intentFilters": [
+      {
+        "action": [
+          "com.google.firebase.MESSAGING_EVENT"
+        ],
+        "category": [],
+        "schemes": [],
+        "hosts": [],
+        "paths": []
+      }
+    ]
+  },
+  {
+    "type": "service",
+    "name": "com.meetup.feature.widget.LargeWidgetRemoteViewsService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  },
+  {
+    "type": "service",
+    "name": "com.meetup.feature.widget.WidgetUpdateService",
+    "target": "",
+    "theme": "",
+    "label": "",
+    "exported": "",
+    "launchMode": "",
+    "intentFilters": []
+  }
+]

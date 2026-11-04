@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/deprecated_foundation_highlight" />
+    <size android:height="@dimen/event_preview_image_width" android:width="@dimen/event_preview_image_width" />
+</shape>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:id="@id/yes" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginRight="@dimen/overlapping_member_gallery_overlap" android:src="@drawable/ic_circle_check_color_accent" android:scaleType="fitCenter" class="com.meetup.feature.legacy.ui.OverlappingMemberGallery$Yes"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

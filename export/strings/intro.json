@@ -1,0 +1,12 @@
+{
+  "intro_paywall_free_days_text": "(%s days free)",
+  "intro_paywall_mosaic_due_today": "%s due today",
+  "intro_paywall_mosaic_free_access": "Free Access Enabled",
+  "intro_paywall_mosaic_free_enabled_cta": "Access for Free",
+  "intro_paywall_mosaic_free_subtitle": "Enable free access",
+  "intro_paywall_mosaic_free_text": "Free",
+  "intro_paywall_mosaic_free_trial_try_for_free_cta": "Try for Free",
+  "intro_paywall_mosaic_visual_changed_body": "Cancel anytime.",
+  "intro_paywall_mosaic_visual_changed_subtitle": "%1$s days free, then %2$s",
+  "intro_paywall_mosaic_visual_changed_title": "Connect More with Meetup+"
+}

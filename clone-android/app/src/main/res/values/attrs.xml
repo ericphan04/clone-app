@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Bare attrs referenced by the harvested vector drawables (?colorControlNormal,
+      ?colorSecondary). The source app inherits them from AppCompat/MaterialComponents;
+      this clone is standalone, so they are declared and wired here instead of editing
+      the extracted icon XML.
+    -->
+    <attr name="colorControlNormal" format="color" />
+    <attr name="colorSecondary" format="color" />
+</resources>

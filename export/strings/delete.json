@@ -1,0 +1,14 @@
+{
+  "delete_discussion_confirm": "Delete",
+  "delete_discussion_message": "Are you sure you want to delete this discussion?",
+  "delete_discussion_title": "Delete discussion",
+  "delete_event": "Delete",
+  "delete_photo_dialog_cancel": "Cancel",
+  "delete_photo_dialog_confirm": "Delete",
+  "delete_photo_dialog_text": "This photo will disappear from any profile that uses it.",
+  "delete_photo_dialog_title": "Delete Photo?",
+  "delete_progress": "Deleting…",
+  "delete_reply_message": "Are you sure you want to delete this reply?",
+  "delete_reply_title": "Delete reply",
+  "delete_user_ids_item": "Delete user IDs"
+}

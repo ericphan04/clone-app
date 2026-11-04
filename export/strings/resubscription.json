@@ -1,0 +1,8 @@
+{
+  "resubscription_expired_subtext_not_discount": "Resubscribe to claim your groups!",
+  "resubscription_header_discount": "%1$s days to renew and take %2$s%% off",
+  "resubscription_header_not_discount": "Your subscription will expire in %s days",
+  "resubscription_subtext_discount": "Don’t let your subscription expire!",
+  "resubscription_subtext_not_discount": "Keep your group going and resubscribe",
+  "resubscription_successful_message": "Resubscription was successful!"
+}

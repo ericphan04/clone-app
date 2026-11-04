@@ -1,0 +1,8 @@
+{
+  "pro": "Pro",
+  "pro_network_includes": "Your Meetup Pro network includes a public page for members and visitors. Example.",
+  "pro_network_logo": "%1$s logo",
+  "pro_network_name": "Your Meetup Pro network name",
+  "pro_rsvp_sponsorship_survey_disclaimer": "This information will be shared only with <a href=\"#\">%1$s</a> and <a href=\"#\">%2$s</a>.",
+  "pro_rsvp_survey_disclaimer": "This information will be shared only with <a href=\"#\">%1$s</a> administrators and the leaders of your group."
+}

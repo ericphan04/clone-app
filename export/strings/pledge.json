@@ -1,0 +1,17 @@
+{
+  "pledge_amount_fifty_dollars": "$50",
+  "pledge_amount_five_dollars": "$5",
+  "pledge_amount_one_dollar": "$1",
+  "pledge_amount_one_hundred_dollars": "$100",
+  "pledge_amount_other": "Other",
+  "pledge_amount_ten_dollars": "$10",
+  "pledge_amount_twenty_dollars": "$20",
+  "pledge_amount_two_dollars": "$2",
+  "pledge_donate_now": "Donate now",
+  "pledge_donate_via": "Donate via Pledge",
+  "pledge_group_tip_jar": "Group Tip Jar",
+  "pledge_help_us": "It takes a lot of time to organize this group. Give a tip to your organizer!",
+  "pledge_raised_be_first": "Be the first to donate",
+  "pledge_raised_progress": "$%1$.0f of $%2$.0f raised by %3$d people",
+  "pledge_support_this_group": "Support this Meetup group"
+}

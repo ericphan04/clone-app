@@ -1,0 +1,9 @@
+{
+  "error_a11y_label": "Error: invalid",
+  "error_icon_content_description": "Error",
+  "error_msg_invalid_email": "Enter valid email address",
+  "error_msg_invalid_message": "Enter your message",
+  "error_msg_invalid_name": "Enter your full name",
+  "error_state_description": "This page could not be loaded. Please check your internet connection or try again later.",
+  "error_state_title": "Something went wrong"
+}

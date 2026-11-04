@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rokt.roktsdk.internal.overlay.lightbox.OverlayLinearLayout android:orientation="vertical" android:id="@id/widgetParent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" app:contentInsetEnd="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:contentInsetStart="0.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/toolbarContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/toolbarCloseButtonContainer" android:layout_width="@dimen/rokt_widget_close_button_width_height" android:layout_height="@dimen/rokt_widget_close_button_width_height">
+                <ImageView android:id="@id/imgCloseButtonBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/rokt_widget_close_button_circle_margin" android:layout_centerInParent="true" app:srcCompat="@drawable/rokt_ic_circle_background" />
+                <ImageView android:id="@id/close" android:padding="@dimen/rokt_widget_close_button_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_centerInParent="true" app:srcCompat="@drawable/rokt_ic_close" />
+            </RelativeLayout>
+            <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/toolbarTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" android:layout_marginStart="@dimen/rokt_widget_toolbar_text_margin_start" android:layout_marginEnd="@dimen/rokt_material_default_margin_double" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/placementTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+    <View android:id="@id/title_separator" android:background="@color/rokt_footer_separator_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rokt_footer_vertical_separator_thickness" />
+    <FrameLayout android:id="@id/offers_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.rokt.roktsdk.internal.views.FooterView android:id="@id/footerView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.rokt.roktsdk.internal.overlay.lightbox.OverlayLinearLayout>

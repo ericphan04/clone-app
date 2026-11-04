@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Night palette — values-night/colors.xml from the APK -->
+    <color name="palette_system_background">#FF121212</color>
+    <color name="palette_secondary_background">#FF232425</color>
+    <color name="palette_system_grey_1">#FF8E8E93</color>
+    <color name="palette_system_grey_5">#FF2C2C2E</color>
+    <color name="palette_system_grey_6">#FF1C1C1E</color>
+    <color name="palette_text_primary">#DEFFFFFF</color>
+    <color name="palette_viridian">#FF008294</color>
+    <color name="palette_peach">#FFF65858</color>
+
+    <color name="scrim">#99000000</color>
+
+</resources>

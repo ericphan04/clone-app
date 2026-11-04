@@ -1,0 +1,10 @@
+{
+  "no": "No",
+  "no_email_client": "No email client installed.",
+  "no_internet_error": "No internet connection.",
+  "no_location_error": "Sorry, Meetup can’t locate you right now.",
+  "no_notifications_description": "Stay tuned — updates about your groups and events will show up here when there’s something new to share.",
+  "no_notifications_title": "Nothing here...for now!",
+  "no_pending_members": "No pending join requests",
+  "no_variants": "No variants found"
+}

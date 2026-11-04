@@ -1,0 +1,27 @@
+# Large binary archives & APK files (>100MB / raw dumps)
+*.apkm
+*.apk
+*.aab
+raw/
+apktool/
+jadx/
+tools/
+
+# Android & Gradle build artifacts
+.gradle/
+**/build/
+**/.kotlin/
+**/local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS & Editor
+.DS_Store
+Thumbs.db

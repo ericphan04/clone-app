@@ -1,0 +1,20 @@
+{
+  "upgrade_browse_plans_screen_title": "Upgrade",
+  "upgrade_compare_plans_link": "Compare plans >",
+  "upgrade_compare_plans_screen_title": "Compare plans",
+  "upgrade_subscription_build_unlimited_groups": "Build unlimited groups within your network",
+  "upgrade_subscription_capture_valuable_information": "Capture valuable attendee information via custom forms",
+  "upgrade_subscription_contact_members_in_and_out": "Contact members both in and out of Meetup",
+  "upgrade_subscription_engage_and_grow_community": "Engage and grow your community",
+  "upgrade_subscription_pro_body": "Expand your community with unlimited groups. Plus, leverage advanced event management, communication, and analytics tools to drive member growth and engagement.",
+  "upgrade_subscription_pro_title": "Power up your network with Meetup Pro",
+  "upgrade_subscription_pro_title_highlighted_text": "Meetup Pro",
+  "upgrade_subscription_pro_type": "Pro",
+  "upgrade_subscription_sell_tickets": "Sell tickets &amp; collect member dues",
+  "upgrade_subscription_standard_body": "Host as many events as you wish with Meetup Standard. Plus, invite unlimited attendees, schedule online and recurring events, leverage powerful event management tools, and more.",
+  "upgrade_subscription_standard_title": "Events without limits—try Meetup Standard today!",
+  "upgrade_subscription_standard_title_highlighted_text": "Meetup Standard",
+  "upgrade_subscription_standard_type": "Standard",
+  "upgrade_subscription_unlock_unlimited_events": "Unlock unlimited events &amp; attendees",
+  "upgrade_subscription_upgrade_to_tier": "Upgrade to %s"
+}

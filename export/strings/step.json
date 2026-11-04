@@ -1,0 +1,14 @@
+{
+  "step_up_banner_text": "This group is looking for a new organizer",
+  "step_up_button_label": "Claim group",
+  "step_up_congratulations_desc_prefix": "You are now the organizer of",
+  "step_up_congratulations_redesign": "Congratulations!",
+  "step_up_decline_nomination": "Decline nomination",
+  "step_up_dialog_become_org_desc_redesign": "\"You will need the willingness to:\n• Be active in the community\n• Encourage members to participate\n• Be safe and respectful\"",
+  "step_up_dialog_become_org_redesign": "Becoming an organizer is a big responsibility",
+  "step_up_dialog_congrats_desc": "Let your group know that you are the new organizer by sending a message to the group",
+  "step_up_dialog_email_group": "Email group members",
+  "step_up_dialog_i_agree": "I agree",
+  "step_up_error_message": "Something went wrong, please try again later.",
+  "step_up_okay": "Okay"
+}

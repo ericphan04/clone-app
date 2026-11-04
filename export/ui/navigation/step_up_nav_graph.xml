@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/step_up_nav_graph" app:startDestination="@id/stepUpFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <activity android:name="com.meetup.subscription.stepup.StepUpActivity" android:id="@id/stepUpActivity" />
+    <fragment android:name="com.meetup.subscription.stepup.StepUpFragment" android:id="@id/stepUpFragment">
+        <argument android:name="group_id" app:argType="long" />
+        <argument android:name="is_nominated" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="origin" app:argType="com.meetup.library.tracking.data.conversion.OriginType" />
+    </fragment>
+</navigation>

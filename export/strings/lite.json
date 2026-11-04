@@ -1,0 +1,19 @@
+{
+  "lite_tier_checkbox_body": "The Starter plan is a free and limited version",
+  "lite_tier_checkbox_title": "Create your first event",
+  "lite_tier_general_event_error": "This event exceeds one or more limits of your current subscription tier.",
+  "lite_tier_group_error": "This exceeds the group limit for your current subscription tier.",
+  "lite_tier_max_attendees": "The max number of attendees for your events is %d.",
+  "lite_tier_plan_body": "Create your first group and 2 events per month max, with limited features",
+  "lite_tier_plan_price": "Free plan",
+  "lite_tier_plan_title": "Starter",
+  "lite_tier_redirect_body": "You will be redirected to the Meetup website to re-authenticate your account and set up your new Starter plan.",
+  "lite_tier_redirect_button": "Continue",
+  "lite_tier_redirect_highlighted_text": "Meetup.com",
+  "lite_tier_redirect_message": "You’ll be redirected to Meetup.com to re-authenticate your Meetup Account and finish set up.",
+  "lite_tier_redirect_title": "You’re about to be redirected to Meetup.com",
+  "lite_tier_upgrade": "Upgrade",
+  "lite_tier_upgrade_more_attendees": "Upgrade to unlock more attendees",
+  "lite_tier_upgrade_to_add_cohost": "Upgrade to add a co-host",
+  "lite_tier_upgrade_to_unlock": "Upgrade to unlock"
+}

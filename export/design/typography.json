@@ -1,0 +1,173 @@
+[
+  {
+    "style": "Meetup.Text.Body",
+    "parent": "@style/TextAppearance.AppCompat.Body1",
+    "textSize": "@dimen/text_size_body",
+    "fontFamily": "@font/graphik_regular",
+    "textColor": "",
+    "lineSpacingExtra": "@dimen/line_spacing_body",
+    "lineSpacingMultiplier": ""
+  },
+  {
+    "style": "Meetup.Text.Body.Medium",
+    "parent": "@style/Meetup.Text.Body",
+    "textSize": "@dimen/text_size_body",
+    "fontFamily": "@font/graphik_medium",
+    "textColor": "",
+    "lineSpacingExtra": "@dimen/line_spacing_body",
+    "lineSpacingMultiplier": ""
+  },
+  {
+    "style": "Meetup.Text.Body.Medium.Link",
+    "parent": "@style/Meetup.Text.Body.Medium",
+    "textSize": "@dimen/text_size_body",
+    "fontFamily": "@font/graphik_medium",
+    "textColor": "?android:textColorLink",
+    "lineSpacingExtra": "@dimen/line_spacing_body",
+    "lineSpacingMultiplier": ""
+  },
+  {
+    "style": "Meetup.Text.Body.Tertiary",
+    "parent": "@style/Meetup.Text.Body",
+    "textSize": "@dimen/text_size_body",
+    "fontFamily": "@font/graphik_regular",
+    "textColor": "?android:textColorTertiary",
+    "lineSpacingExtra": "@dimen/line_spacing_body",
+    "lineSpacingMultiplier": ""
+  },
+  {
+    "style": "Meetup.Text.Link",
+    "parent": "@style/Meetup.Text.Body",
+    "textSize": "@dimen/text_size_body",
+    "fontFamily": "@font/graphik_regular",
+    "textColor": "@color/text_color_link",
+    "lineSpacingExtra": "@dimen/line_spacing_body",
+    "lineSpacingMultiplier": ""
+  },
+  {
+    "style": "Meetup.Text.Small",
+    "parent": "@style/Meetup.Text.Body",
+    "textSize": "14.0sp",
+    "fontFamily": "@font/graphik_regular",
+    "textColor": "",
+    "lineSpacingExtra": "@dimen/line_spacing_body",
+    "lineSpacingMultiplier": ""
+  },
+  {
+    "style": "Meetup.Text.Small.Medium",
+    "parent": "@style/Meetup.Text.Small",
+    "textSize": "14.0sp",
+    "fontFamily": "@font/graphik_medium",
+    "textColor": "",
+    "lineSpacingExtra": "@dimen/line_spacing_body",
+    "lineSpacingMultiplier": ""
+  },
+  {
+    "style": "Meetup.Text.Small.Medium.Gold",
+    "parent": "@style/Meetup.Text.Small.Medium",
+    "textSize": "14.0sp",
+    "fontFamily": "@font/graphik_medium",
+    "textColor": "@color/palette_old_gold",
+    "lineSpacingExtra": "@dimen/line_spacing_body",
+    "lineSpacingMultiplier": ""
+  },
+  {
+    "style": "Meetup.Text.Small.Medium.Inverse",
+    "parent": "@style/Meetup.Text.Small.Medium",
+    "textSize": "14.0sp",
+    "fontFamily": "@font/graphik_medium",
+    "textColor": "?android:textColorPrimaryInverse",
+    "lineSpacingExtra": "@dimen/line_spacing_body",
+    "lineSpacingMultiplier": ""
+  },
+  {
+    "style": "Meetup.Text.Small.Medium.Link",
+    "parent": "@style/Meetup.Text.Small.Medium",
+    "textSize": "14.0sp",
+    "fontFamily": "@font/graphik_medium",
+    "textColor": "?android:textColorLink",
+    "lineSpacingExtra": "@dimen/line_spacing_body",
+    "lineSpacingMultiplier": ""
+  },
+  {
+    "style": "Meetup.Text.Small.Secondary",
+    "parent": "@style/Meetup.Text.Small",
+    "textSize": "14.0sp",
+    "fontFamily": "@font/graphik_regular",
+    "textColor": "?android:textColorSecondary",
+    "lineSpacingExtra": "@dimen/line_spacing_body",
+    "lineSpacingMultiplier": ""
+  },
+  {
+    "style": "Meetup.Text.Tiny",
+    "parent": "@style/Meetup.Text.Body",
+    "textSize": "12.0sp",
+    "fontFamily": "@font/graphik_regular",
+    "textColor": "",
+    "lineSpacingExtra": "@dimen/line_spacing_body",
+    "lineSpacingMultiplier": ""
+  },
+  {
+    "style": "Meetup.Text.Tiny.Bold",
+    "parent": "@style/Meetup.Text.Body",
+    "textSize": "12.0sp",
+    "fontFamily": "@font/graphik_medium",
+    "textColor": "",
+    "lineSpacingExtra": "@dimen/line_spacing_body",
+    "lineSpacingMultiplier": ""
+  },
+  {
+    "style": "Meetup.Text.Tiny.Bold.Inverse",
+    "parent": "@style/Meetup.Text.Tiny.Bold",
+    "textSize": "12.0sp",
+    "fontFamily": "@font/graphik_medium",
+    "textColor": "@color/palette_white",
+    "lineSpacingExtra": "@dimen/line_spacing_body",
+    "lineSpacingMultiplier": ""
+  },
+  {
+    "style": "Meetup.Text.Tiny.Inverse",
+    "parent": "@style/Meetup.Text.Tiny",
+    "textSize": "12.0sp",
+    "fontFamily": "@font/graphik_regular",
+    "textColor": "@color/palette_white",
+    "lineSpacingExtra": "@dimen/line_spacing_body",
+    "lineSpacingMultiplier": ""
+  },
+  {
+    "style": "Meetup.Text.Tiny.Secondary",
+    "parent": "@style/Meetup.Text.Tiny",
+    "textSize": "12.0sp",
+    "fontFamily": "@font/graphik_regular",
+    "textColor": "?android:textColorSecondary",
+    "lineSpacingExtra": "@dimen/line_spacing_body",
+    "lineSpacingMultiplier": ""
+  },
+  {
+    "style": "Meetup.Text.Title",
+    "parent": "@style/Meetup",
+    "textSize": "16.0sp",
+    "fontFamily": "@font/graphik_regular",
+    "textColor": "?android:textColorPrimary",
+    "lineSpacingExtra": "",
+    "lineSpacingMultiplier": "1.2"
+  },
+  {
+    "style": "Meetup.Text.Title1",
+    "parent": "@style/Meetup.Text.Title",
+    "textSize": "32.0sp",
+    "fontFamily": "@font/graphik_semibold",
+    "textColor": "?android:textColorPrimary",
+    "lineSpacingExtra": "6.0dip",
+    "lineSpacingMultiplier": "1.2"
+  },
+  {
+    "style": "Meetup.Text.Title3",
+    "parent": "@style/Meetup.Text.Title",
+    "textSize": "20.0sp",
+    "fontFamily": "@font/graphik_semibold",
+    "textColor": "?android:textColorPrimary",
+    "lineSpacingExtra": "",
+    "lineSpacingMultiplier": "1.2"
+  }
+]

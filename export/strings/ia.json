@@ -1,0 +1,13 @@
+{
+  "ia_ad_identifier": "Ads by DT",
+  "ia_skip_rewarded_dialog_close_button": "CLOSE",
+  "ia_skip_rewarded_dialog_keep_watching": "KEEP WATCHING",
+  "ia_skip_rewarded_dialog_sub_title": "Reward will not be received before video completion.",
+  "ia_skip_rewarded_dialog_title": "Close Video?",
+  "ia_str_video_error": "\"Connection was lost\ncannot play video\"",
+  "ia_video_app_info_text": "App Info",
+  "ia_video_before_skip_format": "Skip in (%d)",
+  "ia_video_install_now_text": "Install Now",
+  "ia_video_instant_install_text": "Instant Install",
+  "ia_video_skip_text": "Skip Ad"
+}

@@ -1,0 +1,5 @@
+{
+  "bottom_sheet_behavior": "com.google.android.material.bottomsheet.BottomSheetBehavior",
+  "bottom_sheet_dropdown_empty_state": "No results found",
+  "bottom_sheet_dropdown_search_placeholder": "Search…"
+}

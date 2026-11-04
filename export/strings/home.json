@@ -1,0 +1,22 @@
+{
+  "home": "Home",
+  "home_all_tab_title": "@string/calendar_all_tab",
+  "home_error_dialog_dismiss": "Dismiss",
+  "home_error_dialog_message": "Something went wrong while loading your data. Try again, or wait a couple minutes.",
+  "home_error_dialog_retry": "Try again",
+  "home_error_dialog_title": "Something went wrong",
+  "home_going_events_see_all": "See all",
+  "home_going_section_label": "Going",
+  "home_going_tab_title": "@string/content_description_tab_attending",
+  "home_location": "Home",
+  "home_past_tab_title": "@string/group_timeline_tab_past",
+  "home_start_a_new_group_chalice_icon": "Chalice icon",
+  "home_start_a_new_group_forward_arrow_icon": "Forward arrow icon",
+  "home_start_a_new_group_subtext": "Organize your own events",
+  "home_start_a_new_group_title": "Start a new group",
+  "home_title": "Home",
+  "home_your_groups_header": "@string/your_groups",
+  "home_your_groups_more_groups": "More groups",
+  "home_your_groups_see_all_button": "See all",
+  "home_your_groups_title_label": "Your groups"
+}

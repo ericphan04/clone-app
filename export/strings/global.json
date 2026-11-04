@@ -1,0 +1,8 @@
+{
+  "global_edit_age": "@string/global_profile_age",
+  "global_edit_bio": "@string/global_profile_bio",
+  "global_edit_gender": "@string/global_profile_gender",
+  "global_profile_age": "Age",
+  "global_profile_bio": "Bio",
+  "global_profile_gender": "Gender"
+}

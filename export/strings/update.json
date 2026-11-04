@@ -1,0 +1,8 @@
+{
+  "update_app": "Update App",
+  "update_dialog_title": "Update",
+  "update_subscription_footer": "Organizer subscriptions renew automatically. Your next payment of %1$s will happen on %2$s. You can cancel this renewal in your account settings at any time before %2$s.",
+  "update_subscription_new_plan_due": "Due %1$s:",
+  "update_subscription_new_plan_summary_monthly": "Starting on %1$s, we’ll bill you once a month for your Meetup subscription.",
+  "update_subscription_new_plan_summary_six_months": "Starting on %1$s, we’ll bill you every 6 months for your Meetup subscription."
+}

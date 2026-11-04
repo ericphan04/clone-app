@@ -1,0 +1,14 @@
+{
+  "sort": "Sort",
+  "sort_ascending": "Ascending",
+  "sort_by_alphabetical": "Alphabetical",
+  "sort_by_date_joined": "Date joined",
+  "sort_by_last_visit": "Last visit",
+  "sort_by_recently_joined": "Recently joined",
+  "sort_by_relevance": "Relevance",
+  "sort_by_role": "Role",
+  "sort_descending": "Descending",
+  "sort_type_date": "Date",
+  "sort_type_dialog_title": "@string/event_find_filters_edit_sort_by",
+  "sort_type_relevance": "Relevance"
+}

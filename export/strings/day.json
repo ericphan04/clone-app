@@ -1,0 +1,10 @@
+{
+  "day_period_afternoon1": "afternoon",
+  "day_period_afternoon2": "\n    <string name=\"day_period_am\">AM",
+  "day_period_evening1": "evening",
+  "day_period_midnight": "midnight",
+  "day_period_morning1": "morning",
+  "day_period_morning2": "\n    <string name=\"day_period_night1\">night",
+  "day_period_night2": "\n    <string name=\"day_period_noon\">noon",
+  "day_period_pm": "PM"
+}
