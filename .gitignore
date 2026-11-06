@@ -4,7 +4,9 @@
 *.aab
 raw/
 apktool/
+apktool_*/
 jadx/
+jadx_*/
 tools/
 
 # Android & Gradle build artifacts

@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light" />
+    <title>Instagram — UI clone</title>
+    <link rel="stylesheet" href="styles/app.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <nav class="routebar" role="tablist" aria-label="Routes" id="routebar">
+        <button role="tab" data-route="feed" aria-selected="true">Feed</button>
+        <button role="tab" data-route="dm" aria-selected="false">Tin nhắn</button>
+        <button role="tab" data-route="login" aria-selected="false">Login</button>
+        <button role="tab" data-route="register" aria-selected="false">Register</button>
+      </nav>
+      <button class="routefab" id="routefab" aria-label="Chọn màn hình" aria-expanded="false">
+        <i class="ic ic--menu" aria-hidden="true"></i>
+      </button>
+
+      <div class="device">
+        <div class="statusbar">
+          <span id="sb-clock">9:41</span>
+          <span class="sb-right">
+            <i class="bars"></i>
+            <i class="wifi"></i>
+            <i class="batt"></i>
+          </span>
+        </div>
+
+        <div class="viewport">
+          <!-- ============ FEED ============ -->
+          <section class="screen is-active" id="screen-feed" aria-label="Feed">
+            <header class="topbar">
+              <div class="brand">
+                <i class="ic ic--logo" aria-hidden="true"></i>
+                <span class="wordmark">Instagram</span>
+              </div>
+              <div class="actions">
+                <button class="iconbtn" data-toast="Không có thông báo mới" aria-label="Hoạt động">
+                  <i class="ic ic--heart" aria-hidden="true"></i>
+                </button>
+                <button class="iconbtn" data-route="dm" aria-label="Tin nhắn">
+                  <i class="ic ic--direct" aria-hidden="true"></i>
+                  <span class="badge-dot"></span>
+                </button>
+              </div>
+            </header>
+
+            <div class="stories" id="stories"></div>
+            <div id="posts"></div>
+
+            <nav class="tabbar" aria-label="Điều hướng">
+              <button class="iconbtn" aria-label="Trang chủ">
+                <i class="ic ic--home-on" aria-hidden="true"></i>
+              </button>
+              <button class="iconbtn" data-toast="Tìm kiếm" aria-label="Tìm kiếm">
+                <i class="ic ic--search" aria-hidden="true"></i>
+              </button>
+              <button class="iconbtn" data-toast="Reels" aria-label="Reels">
+                <i class="ic ic--reels" aria-hidden="true"></i>
+              </button>
+              <button class="iconbtn" data-route="dm" aria-label="Tin nhắn">
+                <i class="ic ic--direct" aria-hidden="true"></i>
+              </button>
+              <button class="iconbtn" data-toast="Trang cá nhân" aria-label="Trang cá nhân">
+                <img class="avatar avatar--24" src="assets/img/avatar-01.jpg" alt="" />
+              </button>
+            </nav>
+          </section>
+
+          <!-- ============ DM INBOX ============ -->
+          <section class="screen" id="screen-dm" aria-label="Tin nhắn">
+            <header class="dm-head">
+              <span class="title">
+                <span class="who">linh.tr</span>
+                <i class="ic ic--chev" aria-hidden="true"></i>
+              </span>
+              <button class="iconbtn" data-toast="Soạn tin mới" aria-label="Soạn tin">
+                <i class="ic ic--plus-circle" aria-hidden="true"></i>
+              </button>
+            </header>
+
+            <div class="dm-search">
+              <label class="box">
+                <i class="ic ic--search" aria-hidden="true"></i>
+                <input type="search" id="dm-filter" placeholder="Tìm kiếm" autocomplete="off" />
+              </label>
+            </div>
+
+            <div class="notes" id="notes"></div>
+
+            <div class="dm-section">
+              Tin nhắn
+              <span data-toast="Sắp xếp theo mới nhất">Mới nhất</span>
+            </div>
+
+            <div class="thread-list" id="threads"></div>
+
+            <nav class="tabbar" aria-label="Điều hướng">
+              <button class="iconbtn" data-route="feed" aria-label="Trang chủ">
+                <i class="ic ic--home" aria-hidden="true"></i>
+              </button>
+              <button class="iconbtn" data-toast="Tìm kiếm" aria-label="Tìm kiếm">
+                <i class="ic ic--search" aria-hidden="true"></i>
+              </button>
+              <button class="iconbtn" data-toast="Reels" aria-label="Reels">
+                <i class="ic ic--reels" aria-hidden="true"></i>
+              </button>
+              <button class="iconbtn" aria-label="Tin nhắn">
+                <i class="ic ic--direct" aria-hidden="true"></i>
+              </button>
+              <button class="iconbtn" data-toast="Trang cá nhân" aria-label="Trang cá nhân">
+                <img class="avatar avatar--24" src="assets/img/avatar-01.jpg" alt="" />
+              </button>
+            </nav>
+          </section>
+
+          <!-- ============ THREAD ============ -->
+          <section class="screen" id="screen-thread" aria-label="Hội thoại">
+            <header class="thread-head">
+              <button class="iconbtn" data-back aria-label="Quay lại">
+                <i class="ic ic--back-arrow" aria-hidden="true"></i>
+              </button>
+              <div class="avatar-wrap">
+                <img class="avatar avatar--32" id="th-avatar" src="assets/img/avatar-02.jpg" alt="" />
+              </div>
+              <div class="who">
+                <span class="n" id="th-name">linh.tr</span>
+                <span class="s" id="th-status">Đang hoạt động</span>
+              </div>
+              <button class="iconbtn" data-toast="Gọi thoại" aria-label="Gọi thoại">
+                <i class="ic ic--call" aria-hidden="true"></i>
+              </button>
+              <button class="iconbtn" data-toast="Gọi video" aria-label="Gọi video">
+                <i class="ic ic--call-video" aria-hidden="true"></i>
+              </button>
+            </header>
+
+            <div class="thread-body" id="thread-body"></div>
+
+            <div class="composer" id="composer">
+              <button class="iconbtn" data-toast="Camera" aria-label="Camera">
+                <i class="ic ic--camera" aria-hidden="true"></i>
+              </button>
+              <div class="pill">
+                <input id="dm-input" type="text" placeholder="Nhắn tin..." autocomplete="off" />
+                <button class="iconbtn" data-toast="Gửi ảnh" aria-label="Gửi ảnh">
+                  <i class="ic ic--image" aria-hidden="true"></i>
+                </button>
+                <button class="iconbtn" data-toast="Sticker" aria-label="Sticker">
+                  <i class="ic ic--sticker" aria-hidden="true"></i>
+                </button>
+              </div>
+              <button class="send" id="dm-send" aria-label="Gửi">
+                <i class="ic ic--send-on" aria-hidden="true"></i>
+              </button>
+              <button class="iconbtn" id="dm-mic" data-toast="Ghi tin nhắn thoại" aria-label="Tin nhắn thoại">
+                <i class="ic ic--mic" aria-hidden="true"></i>
+              </button>
+            </div>
+
+            <div class="reaction-bar" id="reaction-bar"></div>
+          </section>
+
+          <!-- ============ LOGIN ============ -->
+          <section class="screen" id="screen-login" aria-label="Login">
+            <div class="auth">
+              <div class="auth-logo">
+                <span class="wordmark">Instagram</span>
+              </div>
+
+              <form class="auth-card" id="login-form" novalidate>
+                <div class="field">
+                  <span class="float-label">Tên người dùng, số điện thoại hoặc email</span>
+                  <input
+                    type="text"
+                    name="username"
+                    placeholder="Tên người dùng, số điện thoại hoặc email"
+                    autocomplete="username"
+                    spellcheck="false"
+                  />
+                </div>
+
+                <div class="field">
+                  <span class="float-label">Mật khẩu</span>
+                  <input
+                    type="password"
+                    name="password"
+                    placeholder="Mật khẩu"
+                    autocomplete="current-password"
+                  />
+                  <button class="reveal" type="button" data-reveal aria-label="Hiện mật khẩu">
+                    <i class="ic ic--eye" aria-hidden="true"></i>
+                  </button>
+                </div>
+
+                <p class="auth-error" id="login-error">
+                  Tên người dùng hoặc mật khẩu không đúng.
+                </p>
+
+                <button class="btn" type="submit" id="login-submit">Đăng nhập</button>
+
+                <div class="divider"><span>Hoặc</span></div>
+
+                <a class="sso" href="#" data-toast="Facebook login chưa nối trong bản clone">
+                  <i class="ic ic--logo" style="width: 18px; height: 18px"></i>
+                  Đăng nhập bằng Facebook
+                </a>
+
+                <a class="forgot" href="#" data-toast="Luồng khôi phục mật khẩu chưa dựng">
+                  Quên mật khẩu?
+                </a>
+              </form>
+
+              <div class="auth-card auth-card--plain">
+                <span class="auth-foot">
+                  Bạn chưa có tài khoản?
+                  <a href="#" data-route="register">Đăng ký</a>
+                </span>
+              </div>
+            </div>
+          </section>
+
+          <!-- ============ REGISTER ============ -->
+          <section class="screen" id="screen-register" aria-label="Register">
+            <div class="auth" style="padding-top: 26px">
+              <div class="auth-logo" style="padding: 0 0 22px">
+                <span class="wordmark" style="font-size: 40px">Instagram</span>
+              </div>
+
+              <form class="auth-card" id="register-form" novalidate>
+                <p class="signup-title">Đăng ký để xem ảnh và video từ bạn bè của mình.</p>
+
+                <a class="sso" href="#" data-toast="Facebook login chưa nối trong bản clone">
+                  <i class="ic ic--logo" style="width: 18px; height: 18px"></i>
+                  Đăng nhập bằng Facebook
+                </a>
+
+                <div class="divider"><span>Hoặc</span></div>
+
+                <div class="field">
+                  <span class="float-label">Số di động hoặc email</span>
+                  <input type="email" name="email" placeholder="Số di động hoặc email" autocomplete="email" />
+                </div>
+
+                <div class="field">
+                  <span class="float-label">Mật khẩu</span>
+                  <input type="password" name="password" placeholder="Mật khẩu" autocomplete="new-password" />
+                  <button class="reveal" type="button" data-reveal aria-label="Hiện mật khẩu">
+                    <i class="ic ic--eye" aria-hidden="true"></i>
+                  </button>
+                </div>
+
+                <div class="field">
+                  <span class="float-label">Tên đầy đủ</span>
+                  <input type="text" name="fullname" placeholder="Tên đầy đủ" autocomplete="name" />
+                </div>
+
+                <div class="field">
+                  <span class="float-label">Tên người dùng</span>
+                  <input
+                    type="text"
+                    name="username"
+                    placeholder="Tên người dùng"
+                    autocomplete="username"
+                    spellcheck="false"
+                  />
+                </div>
+
+                <p class="auth-hint">
+                  Người dùng có thể nhận ra bạn qua số di động hoặc email.
+                  <a href="#" data-toast="Chưa dựng màn cài đặt quyền riêng tư">Tìm hiểu thêm</a>
+                </p>
+
+                <p class="terms">
+                  Bằng cách đăng ký, bạn đồng ý với
+                  <a href="#" data-toast="Chưa dựng màn điều khoản">Điều khoản</a>,
+                  <a href="#" data-toast="Chưa dựng màn quyền riêng tư">Chính sách quyền riêng tư</a>
+                  và <a href="#" data-toast="Chưa dựng màn cookie">Chính sách cookie</a>.
+                </p>
+
+                <p class="auth-error" id="register-error">
+                  Điền đủ các trường để tạo tài khoản.
+                </p>
+
+                <button class="btn" type="submit" id="register-submit">Đăng ký</button>
+              </form>
+
+              <div class="auth-card auth-card--plain">
+                <span class="auth-foot">
+                  Bạn đã có tài khoản?
+                  <a href="#" data-route="login">Đăng nhập</a>
+                </span>
+              </div>
+            </div>
+          </section>
+
+          <!-- ============ OVERLAYS ============ -->
+          <div class="viewer" id="viewer" aria-hidden="true">
+            <div class="stage"><img id="viewer-img" alt="" /></div>
+            <div class="scrim"></div>
+            <div class="bars" id="viewer-bars"></div>
+            <div class="vhead">
+              <img class="avatar avatar--32" id="viewer-avatar" src="assets/img/avatar-02.jpg" alt="" />
+              <span class="n" id="viewer-name">linh.tr</span>
+              <span class="t" id="viewer-time">2 giờ</span>
+              <span class="spacer"></span>
+              <button class="iconbtn" data-viewer-close aria-label="Đóng">
+                <i class="ic ic--close" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="zones">
+              <button data-viewer-prev aria-label="Trước"></button>
+              <button data-viewer-next aria-label="Sau"></button>
+            </div>
+            <div class="reply">
+              <input type="text" placeholder="Trả lời linh.tr..." />
+              <button class="iconbtn" data-toast="Đã gửi trả lời">
+                <i class="ic ic--heart" aria-hidden="true"></i>
+              </button>
+              <button class="iconbtn" data-toast="Đã gửi trả lời">
+                <i class="ic ic--send" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="sheet-scrim" id="sheet-scrim"></div>
+          <div class="sheet" id="sheet" aria-hidden="true">
+            <div class="grab"></div>
+            <div class="sheet-head" id="sheet-head">Bình luận</div>
+            <div class="sheet-body" id="sheet-body"></div>
+          </div>
+
+          <div class="toast" id="toast" role="status" aria-live="polite"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
