@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light" />
+    <title>KakaoStory 7.2.5 — UI/UX clone</title>
+    <link rel="stylesheet" href="styles/app.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <nav class="routebar" role="tablist" aria-label="Routes">
+        <button role="tab" data-route="splash">Splash</button>
+        <button role="tab" data-route="home">My Story</button>
+        <button role="tab" data-route="feed" aria-selected="true">Feed</button>
+        <button role="tab" data-route="detail">Detail</button>
+        <button role="tab" data-route="noti">Noti</button>
+        <button role="tab" data-route="explore">Explore</button>
+        <button role="tab" data-route="friends">Friends</button>
+        <button role="tab" data-route="write">Write</button>
+      </nav>
+
+      <div class="device">
+        <div class="statusbar">
+          <span id="sb-clock">9:41</span>
+          <span class="sb-right"><i class="sb-signal"></i><i class="sb-wifi"></i><i class="sb-batt"></i></span>
+        </div>
+
+        <div class="viewport" id="viewport">
+          <!-- ================= SPLASH ================= -->
+          <section class="screen" id="screen-splash" aria-label="Splash">
+            <div class="splash">
+              <img class="splash-mark" src="assets/icons/logo_comma.png" alt="" />
+              <img class="splash-word" src="assets/icons/logo_txt.png" alt="kakao story" />
+              <div class="splash-bar"><i></i></div>
+            </div>
+          </section>
+
+          <!-- ================= MY STORY (profile home) ================= -->
+          <section class="screen" id="screen-home" aria-label="My Story">
+            <div class="scroll" data-scroll="home">
+              <div class="cover">
+                <img src="assets/img/cover-01.jpg" alt="" />
+                <span class="cover-veil"></span>
+                <button class="cover-menu" aria-label="Cài đặt">
+                  <img src="assets/icons/ico_menu_48_px.png" alt="" />
+                </button>
+              </div>
+
+              <div class="profile-card">
+                <div class="avatar-ring">
+                  <img class="avatar-100" src="assets/img/me.jpg" alt="" />
+                </div>
+                <h1 class="profile-name">Linh Trần <img class="badge-l" src="assets/icons/ico_badge_birth.png" alt="" /></h1>
+                <p class="profile-status">đang ở Đà Lạt · 3 giờ trước</p>
+
+                <div class="profile-meta">
+                  <span><img src="assets/icons/ico_mystory_accept.png" alt="" />Bạn bè <b>248</b></span>
+                  <span class="dot-sep"></span>
+                  <span>Following <b>96</b></span>
+                </div>
+
+                <div class="profile-actions">
+                  <button class="btn-outline">Chỉnh sửa hồ sơ</button>
+                  <button class="btn-circle" aria-label="Thêm">
+                    <img src="assets/icons/ico_more_darkgray.png" alt="" />
+                  </button>
+                </div>
+              </div>
+
+              <div class="storytabs" id="storytabs">
+                <button class="stab is-on" data-stab="grid"><img src="assets/icons/btn_mystory_menu_thumbview_on.png" alt="" /></button>
+                <button class="stab" data-stab="feed"><img src="assets/icons/btn_mystory_menu_feed.png" alt="" /></button>
+                <button class="stab" data-stab="discovery"><img src="assets/icons/btn_mystory_menu_friends.png" alt="" /></button>
+                <button class="stab" data-stab="me"><img src="assets/icons/btn_mystory_menu_me.png" alt="" /></button>
+                <i class="stab-bar"></i>
+              </div>
+
+              <div class="gridwrap" id="mygrid"></div>
+
+              <div class="hintbar">Kéo xuống ở Feed để làm mới · Giữ cảm xúc để thả mood</div>
+            </div>
+            <nav class="tabbar" data-tabbar></nav>
+          </section>
+
+          <!-- ================= FEED ================= -->
+          <section class="screen is-active" id="screen-feed" aria-label="Feed">
+            <header class="topbar">
+              <span class="topbar-title">Feed</span>
+              <div class="topbar-actions">
+                <button class="iconbtn" data-toast="Bạn bè KakaoTalk">
+                  <img src="assets/icons/ico_mystory_accept.png" alt="" />
+                </button>
+                <button class="iconbtn" data-route="noti" aria-label="Thông báo">
+                  <img src="assets/icons/ico_menu_48_px.png" alt="" />
+                  <span class="dot-badge"></span>
+                </button>
+              </div>
+            </header>
+
+            <div class="feedbody">
+              <div class="pullzone">
+                <div class="pulldot"><i></i></div>
+              </div>
+
+              <div class="scroll" data-scroll="feed" id="feedscroll">
+                <div id="feedlist"></div>
+                <div class="list-end">Bạn đã xem hết · 2 giờ trước</div>
+              </div>
+            </div>
+            <button class="newfeed" id="newfeed"><span>Bài mới</span></button>
+            <nav class="tabbar" data-tabbar></nav>
+          </section>
+
+          <!-- ================= ARTICLE DETAIL ================= -->
+          <section class="screen" id="screen-detail" aria-label="Bài viết">
+            <header class="topbar">
+              <button class="iconbtn" data-back aria-label="Quay lại">‹</button>
+              <span class="topbar-title">Bài viết</span>
+              <div class="topbar-actions">
+                <button class="iconbtn" data-toast="Chia sẻ"><img src="assets/icons/ico_feed_share.png" alt="" /></button>
+                <button class="iconbtn" data-toast="Tuỳ chọn"><img src="assets/icons/ico_more_darkgray.png" alt="" /></button>
+              </div>
+            </header>
+            <div class="scroll" id="detailscroll">
+              <div id="detailbody"></div>
+              <div class="comments" id="comments"></div>
+              <div class="detail-pad"></div>
+            </div>
+            <div class="arrive" id="arrive">Bình luận mới</div>
+            <div class="commentbar" id="commentbar">
+              <button class="cb-emo" id="cbEmo" aria-label="Cảm xúc">
+                <img src="assets/icons/ico_emotion_s_like.png" alt="" />
+              </button>
+              <input class="cb-input" id="cbInput" placeholder="Viết bình luận" />
+              <button class="cb-post" id="cbPost">Đăng</button>
+            </div>
+          </section>
+
+          <!-- ================= NOTIFICATIONS ================= -->
+          <section class="screen" id="screen-noti" aria-label="Thông báo">
+            <header class="noti-head">
+              <button class="ntab is-on" data-ntab="activity">Hoạt động</button>
+              <button class="ntab" data-ntab="message">Tin nhắn</button>
+              <span class="ncount" id="ncount">3</span>
+            </header>
+            <div class="scroll" id="notilist"></div>
+            <nav class="tabbar" data-tabbar></nav>
+          </section>
+
+          <!-- ================= EXPLORE ================= -->
+          <section class="screen" id="screen-explore" aria-label="Khám phá">
+            <header class="topbar">
+              <span class="topbar-title">Khám phá</span>
+              <div class="topbar-actions">
+                <button class="iconbtn" data-toast="Tìm kiếm">⌕</button>
+              </div>
+            </header>
+            <div class="scroll" id="explorescroll">
+              <div class="chiptabs" id="chiptabs">
+                <button class="chip is-on">Popular</button>
+                <button class="chip">Following</button>
+                <button class="chip">#dalat</button>
+                <button class="chip">#film</button>
+                <button class="chip">Channels</button>
+              </div>
+              <div class="exgrid" id="exgrid"></div>
+            </div>
+            <nav class="tabbar" data-tabbar></nav>
+          </section>
+
+          <!-- ================= FRIENDS ================= -->
+          <section class="screen" id="screen-friends" aria-label="Bạn bè">
+            <header class="topbar">
+              <span class="topbar-title">Bạn bè</span>
+              <div class="topbar-actions">
+                <span class="topbar-count" id="fcount">248</span>
+              </div>
+            </header>
+            <div class="scroll" id="friendlist"></div>
+            <nav class="tabbar" data-tabbar></nav>
+          </section>
+
+          <!-- ================= WRITE ================= -->
+          <section class="screen" id="screen-write" aria-label="Viết bài">
+            <header class="topbar">
+              <button class="iconbtn" data-back aria-label="Đóng">✕</button>
+              <span class="topbar-title">Story mới</span>
+              <button class="write-done" id="writeDone">Xong</button>
+            </header>
+            <div class="scroll">
+              <div class="write-imgs" id="writeImgs"></div>
+              <textarea class="write-text" id="writeText" placeholder="Hôm nay của bạn thế nào?"></textarea>
+              <div class="write-meta">
+                <span><img src="assets/icons/ico_mystory_accept.png" alt="" />Bạn bè</span>
+                <span class="link">Thêm vị trí</span>
+                <span class="link">#hashtag</span>
+              </div>
+            </div>
+            <div class="write-tools">
+              <button class="wtool" data-toast="Ảnh">Ảnh</button>
+              <button class="wtool" data-toast="Video">Video</button>
+              <button class="wtool" data-toast="Sticker">Sticker</button>
+              <button class="wtool" data-toast="Vẽ tay">Vẽ</button>
+            </div>
+          </section>
+
+          <!-- ================= OVERLAYS ================= -->
+          <div class="emopop" id="emopop" aria-hidden="true">
+            <div class="emopop-inner" id="emopopInner"></div>
+            <div class="emopop-scrim"></div>
+          </div>
+
+          <div class="flyer" id="flyer" aria-hidden="true"></div>
+
+          <div class="sheet" id="sheet" aria-hidden="true">
+            <div class="sheet-card">
+              <div class="sheet-grab"></div>
+              <div id="sheetbody"></div>
+            </div>
+            <div class="sheet-scrim" data-sheet-close></div>
+          </div>
+
+          <div class="toast" id="toast"></div>
+        </div>
+      </div>
+
+      <p class="legend">
+        Clone UI/UX · mọi token lấy từ <code>KakaoStory_7.2.5</code> (<code>res/values</code>) · ảnh là placeholder sinh tại chỗ
+      </p>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
